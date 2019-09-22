@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.study.dao.GrideMapper" >
+  <!--  基础映射 -->
+  <resultMap id="BaseResultMap" type="com.study.entity.Gride" >
+    <result column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="gid" property="gid" jdbcType="INTEGER" />
+  </resultMap>
+
+  <!-- 该映射携带学生信息  -->
+  <resultMap id="BaseResultMapWithStudents" extends="BaseResultMap"  type="com.study.entity.Gride">
+    <collection property="students" resultMap="com.study.dao.StudentMapper.BaseResultMap"/>
+  </resultMap>
+
+  <!-- sql映射  -->
+  <sql id="Base_Column_List" >
+    id, `name`, gid
+  </sql>
+  <sql id="findWhere">
+    <where>
+      <if test="id != null" >
+        and id = #{id,jdbcType=INTEGER}
+      </if>
+      <if test="name != null">
+        and name = #{name,jdbcType=VARCHAR}
+      </if>
+      <if test="gid != null">
+        and gid = #{gid,jdbcType=INTEGER}
+      </if>
+    </where>
+  </sql>
+
+  <!-- 查询方法 -->
+  <select id="selectAllList" parameterType="com.study.entity.Gride" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from gride
+    <include refid="findWhere" />
+  </select>
+
+
+
+  <select id="selectAllListWithStudents" parameterType="com.study.entity.Gride" resultMap="BaseResultMapWithStudents">
+    select
+      s.sid, s.sname, g.gid, g.name
+    from student as s left join gride g on s.gid = s.gid
+    <where>
+      <if test="id != null" >
+        and g.id = #{id,jdbcType=INTEGER}
+      </if>
+      <if test="name != null">
+        and g.name = #{name,jdbcType=VARCHAR}
+      </if>
+      <if test="gid != null">
+        and g.gid = #{gid,jdbcType=INTEGER}
+      </if>
+    </where>
+  </select>
+
+
+
+
+  <insert id="insert" parameterType="com.study.entity.Gride" >
+    insert into gride (id, name, gid)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{gid,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.study.entity.Gride" >
+    insert into gride
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="name != null" >
+        name,
+      </if>
+      <if test="gid != null" >
+        gid,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null" >
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="gid != null" >
+        #{gid,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+</mapper>

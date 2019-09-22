@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="interview-ready" />
+        <module name="kafka-study-project" />
+        <module name="mybatis-study-project" />
+        <module name="redis-study-project" />
+        <module name="rmi-server-study" />
+        <module name="service-api" />
+        <module name="service-consumer" />
+        <module name="service-provider" />
+        <module name="spring-boot-study" />
+        <module name="spring-cloud-config-client" />
+        <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-eureka-server-demo" />
+        <module name="spring-cloud-hystrix-client-demo" />
+        <module name="spring-cloud-hystrix-dashboard-demo1" />
+        <module name="spring-explore" />
+        <module name="zk-search-study" />
+      </profile>
+      <profile name="Annotation profile for spring-cloud-feign-demo" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="person-api" />
+        <module name="person-client" />
+        <module name="person-service-provider" />
+        <module name="user-api" />
+        <module name="user-service-consumer" />
+        <module name="user-service-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-consumer" target="1.7" />
+      <module name="dubbo-provider" target="1.7" />
+      <module name="dubbo-spring-explore" target="1.7" />
+      <module name="eureka-server" target="1.8" />
+      <module name="format-starter" target="1.7" />
+      <module name="kafka-project" target="1.7" />
+      <module name="mybatis-generate-project" target="1.8" />
+      <module name="spring-boot-explore" target="1.8" />
+      <module name="spring-cloud-service-discover-client" target="1.8" />
+      <module name="spring-cloud-study-parent" target="1.8" />
+      <module name="spring-study-transaction" target="1.7" />
+      <module name="zookeeper-study" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

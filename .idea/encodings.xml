@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project/service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project/service-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project/service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interview-ready" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-study-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-generate-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-study-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redis-study-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rmi-server-study" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-study" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-service-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-feign-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-feign-demo/person-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-feign-demo/person-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-feign-demo/person-service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-client-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-explore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usual-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usual-project/zk-search-study" charset="UTF-8" />
+  </component>
+</project>

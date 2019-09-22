@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.study.dao.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.study.entity.User" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="uname" property="uname" jdbcType="VARCHAR" />
+    <result column="userLevel" property="userlevel" jdbcType="INTEGER" />
+    <result column="age" property="age" jdbcType="INTEGER" />
+    <result column="phoneNum" property="phonenum" jdbcType="CHAR"/>
+    <result column="createTime" property="createtime" jdbcType="TIMESTAMP" />
+    <result column="lastUpdate" property="lastupdate" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, uname, userLevel, age, phoneNum, createTime, lastUpdate
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    <include refid="Base_Column_List" />
+    from users
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from users
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.study.entity.User" >
+    insert into users (id, uname, userLevel,
+      age, phoneNum, createTime,
+      lastUpdate)
+    values (#{id,jdbcType=INTEGER}, #{uname,jdbcType=VARCHAR}, #{userlevel,jdbcType=INTEGER},
+      #{age,jdbcType=INTEGER}, #{phonenum,jdbcType=CHAR}, #{createtime,jdbcType=TIMESTAMP},
+      #{lastupdate,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.study.entity.User" >
+    insert into users
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="uname != null" >
+        uname,
+      </if>
+      <if test="userlevel != null" >
+        userLevel,
+      </if>
+      <if test="age != null" >
+        age,
+      </if>
+      <if test="phonenum != null" >
+        phoneNum,
+      </if>
+      <if test="createtime != null" >
+        createTime,
+      </if>
+      <if test="lastupdate != null" >
+        lastUpdate,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="uname != null" >
+        #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="userlevel != null" >
+        #{userlevel,jdbcType=INTEGER},
+      </if>
+      <if test="age != null" >
+        #{age,jdbcType=INTEGER},
+      </if>
+      <if test="phonenum != null" >
+        #{phonenum,jdbcType=CHAR},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastupdate != null" >
+        #{lastupdate,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.study.entity.User" >
+    update users
+    <set >
+      <if test="uname != null" >
+        uname = #{uname,jdbcType=VARCHAR},
+      </if>
+      <if test="userlevel != null" >
+        userLevel = #{userlevel,jdbcType=INTEGER},
+      </if>
+      <if test="age != null" >
+        age = #{age,jdbcType=INTEGER},
+      </if>
+      <if test="phonenum != null" >
+        phoneNum = #{phonenum,jdbcType=CHAR},
+      </if>
+      <if test="createtime != null" >
+        createTime = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="lastupdate != null" >
+        lastUpdate = #{lastupdate,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.study.entity.User" >
+    update users
+    set uname = #{uname,jdbcType=VARCHAR},
+      userLevel = #{userlevel,jdbcType=INTEGER},
+      age = #{age,jdbcType=INTEGER},
+      phoneNum = #{phonenum,jdbcType=CHAR},
+      createTime = #{createtime,jdbcType=TIMESTAMP},
+      lastUpdate = #{lastupdate,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

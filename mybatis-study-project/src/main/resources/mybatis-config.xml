@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 关于配置文件 -->
+    <properties resource="properties-config.properties">
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+    </properties>
+
+    <settings>
+        <setting name="cacheEnabled" value="false"/>
+    </settings>
+
+    <!-- 关于别名的配置 -->
+    <typeAliases>
+        <package name="com.study.entity"/>
+    </typeAliases>
+
+    <!--  添加typeHandlers -->
+    <typeHandlers>
+        <package name="com.study.handler"/>
+    </typeHandlers>
+
+    <plugins>
+        <plugin interceptor="com.study.plugin.ExamplePlugin">
+            <property name="someProperty" value="100"/>
+        </plugin>
+    </plugins>
+
+
+    <!--  运行时环境 事物管理器和数据源 -->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+
+
+    <!-- mapper映射文件  -->
+    <mappers>
+        <mapper resource="mappers/UserMapper.xml"/>
+        <mapper resource="mappers/GrideMapper.xml"/>
+        <mapper resource="mappers/StudentMapper.xml"/>
+    </mappers>
+</configuration>

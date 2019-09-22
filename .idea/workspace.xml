@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06a85f66-c244-4ad9-8f4f-d0222d9b5387" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper-study/target/" />
+    <ignored path="$PROJECT_DIR$/rmi-server-study/target/" />
+    <ignored path="$PROJECT_DIR$/spring-explore/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-explore/target/" />
+    <ignored path="$PROJECT_DIR$/interview-ready/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-spring-explore/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-spring-explore/dubbo-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-spring-explore/dubbo-provider/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-study/target/" />
+    <ignored path="$PROJECT_DIR$/format-starter/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-server-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-client-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-api/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-hystrix-client-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-service-discover-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-feign-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-feign-demo/person-api/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-feign-demo/person-service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-feign-demo/person-client/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-study-parent/target/" />
+    <ignored path="$PROJECT_DIR$/usual-project/target/" />
+    <ignored path="$PROJECT_DIR$/usual-project/zk-search-study/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-service-project/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-service-project/service-api/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-service-project/service-provider/target/" />
+    <ignored path="$PROJECT_DIR$/dubbo-service-project/service-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/kafka-project/target/" />
+    <ignored path="$PROJECT_DIR$/kafka-study-project/target/" />
+    <ignored path="$PROJECT_DIR$/redis-study-project/target/" />
+    <ignored path="$PROJECT_DIR$/spring-study-transaction/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-study-project/target/" />
+    <ignored path="$PROJECT_DIR$/mybatis-generate-project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/struct_parent$SpringCloudEurekaServerDemoApplication.ic" NAME="SpringCloudEurekaServerDemoApplication Coverage Results" MODIFIED="1564285757471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DefaultThreadFactory</find>
+      <find>runWorker</find>
+      <find>ThreadFactory</find>
+      <find>processWorkerExit</find>
+      <find>RUNNING</find>
+      <find>putLock</find>
+      <find>key.ser</find>
+      <find>value.serializer</find>
+      <find>bootstrap.servers</find>
+      <find>key.deserializer</find>
+      <find>interce</find>
+      <find>getOrder</find>
+      <find>ThreadPoolExecutor</find>
+      <find>ThreadPoolTaskExecutor</find>
+      <find>initializeExecutor</find>
+      <find>executor</find>
+      <find>init</find>
+      <find>threadPoolExecutor</find>
+      <find>execute</find>
+      <find>1</find>
+      <find>OP_WRITE</find>
+      <find>已经</find>
+      <find>cancel</find>
+      <find>equals</find>
+      <find>reverseOnlyLetters</find>
+      <find>当前配置已更新</find>
+      <find>ConfigServerAutoConfiguration</find>
+      <find>cancelAcquire</find>
+      <find>parse</find>
+      <find>registerDefaul</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\code\struct-parent\spring-cloud-config-server\src\main\resources\configs</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../spring" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/factory/func/TelunsuFactory.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/factory/simple/SimpleFactory.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/factory/simple/SimpleFactoryTest.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/strategy/App.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/strategy/Order.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/strategy/PayStyle.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/prototype/deep/DeepCloneTest.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/proxy/cglib/ProxyFactory.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/singleton/test/App.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/code1/TestH.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/MyObservable.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/ServiceApp.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/MyObserver.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/NotifyMessage.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/GoodsSubscribe.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/GoodsService.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/Channel.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/TechnologyChannel.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/Members.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/jdk/App.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/self/MyObserver.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/self/MyObservable.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/observer/self/App.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/listener/jdk/MyEventListener.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/listener/jdk/StartEventListener.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/listener/jdk/ClosedEventListener.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/listener/jdk/MyEventObject.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/listener/jdk/App.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/listener/jdk/MyEventSource.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/pattern/App.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringUtil.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/gupao/springcloudconfigclient/controller/EchoController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs/config-test.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/gupao/springcloudconfigclient/ConfigClientApp.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/com/gupao/springcloudconfigserver/ConfigServerApp.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/t2/PCApp.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/SelfComponent.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/SelfService.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/resources/beans1.xml" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringRepository.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/OtherService.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/App.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringService.java" />
+        <option value="$PROJECT_DIR$/spring-explore/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/LoanService.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/JdkService.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/TransactionalService.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/App.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\long\.m2\repository" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <option name="alwaysShowArtifactId" value="true" />
+    <option name="showVersions" value="true" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="639" />
+    <option name="width" value="1281" />
+    <option name="height" value="717" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="@Document&#9;PSI&#9;JAVA://java.lang.annotation.Documented&#10;MetaDataRe&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/classreading/MetadataReader.java&#10;ManagedBean&#9;PSI&#9;JAVA://javax.annotation.ManagedBean&#10;Class&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java&#10;ComponentScan&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScanBeanDefinitionParser.java&#10;Scanner&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java&#10;ComponentScanBeanDefinitionParser&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScanBeanDefinitionParser.java&#10;ContextNamespaceHandler&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/context/config/ContextNamespaceHandler.java&#10;spring.handlers&#9;FILE&#9;jar://C:/Users/long/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/META-INF/spring.handlers&#10;@Controller&#9;PSI&#9;JAVA://org.springframework.stereotype.Controller&#10;Unsafe&#9;PSI&#9;JAVA://sun.misc.Unsafe&#10;Unsa&#9;PSI&#9;JAVA://io.netty.channel.Channel.Unsafe&#10;InstanceInfo&#9;FILE&#9;jar://C:/Users/long/.m2/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/appinfo/InstanceInfo.java&#10;ILoadBalancer&#9;FILE&#9;jar://C:/Users/long/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java&#10;IPing&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IPing&#10;Server&#9;PSI&#9;JAVA://com.study.t7.Server&#10;ServiceInstance&#9;PSI&#9;JAVA://org.springframework.cloud.client.ServiceInstance&#10;ILoa&#9;PSI&#9;JAVA://com.netflix.loadbalancer.ILoadBalancer&#10;IRule&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IRule&#10;EnvironmentContr&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.EnvironmentController&#10;spring.cloud.config.uri&#9;PSI&#9;JAVA://org.springframework.cloud.config.client.ConfigClientProperties#uri&#10;ConfigServerAutoConfiguration&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/cloud/spring-cloud-config-server/2.1.3.RELEASE/spring-cloud-config-server-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerAutoConfiguration.java&#10;@EnableAutoConfig&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;@EnableWebM&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.EnableWebMvc&#10;EnableAu&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.8.RELEASE/spring-boot-autoconfigure-1.5.8.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class&#10;BootStrapApplicationListener&#9;PSI&#9;JAVA://org.springframework.cloud.bootstrap.BootstrapApplicationListener&#10;ApplicationF&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationFailedEvent&#10;ApplicationReadyEvent&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationReadyEvent&#10;ApplicationStartingEvent&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationStartingEvent&#10;ApplicationPreparedEvent&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationPreparedEvent&#10;ApplicationEnvironmentPre&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/boot/spring-boot/1.5.8.RELEASE/spring-boot-1.5.8.RELEASE.jar!/org/springframework/boot/context/event/ApplicationEnvironmentPreparedEvent.class&#10;EventListener&#9;PSI&#9;JAVA://java.util.EventListener&#10;EventObject&#9;PSI&#9;JAVA://java.util.EventObject&#10;Thread&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java&#10;LinkedTransferQu&#9;PSI&#9;JAVA://java.util.concurrent.LinkedTransferQueue&#10;OnClass&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.8.RELEASE/spring-boot-autoconfigure-1.5.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnClassCondition.java&#10;OnClassCondition&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.condition.OnClassCondition&#10;@SpringBootApplication&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.SpringBootApplication&#10;@Profile&#9;PSI&#9;JAVA://org.springframework.context.annotation.Profile&#10;ProducerCOnfig&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/clients/producer/ProducerConfig.class&#10;ConsumerConfig&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.class&#10;ProducerC&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/clients/producer/ProducerConfig.class&#10;ConfigurationClassPostProcessor&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.class&#10;ConfigurationPostClass&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.class&#10;@EnableCaching&#9;PSI&#9;JAVA://org.springframework.cache.annotation.EnableCaching&#10;@EnableWebMvc&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.EnableWebMvc&#10;EnableWebMvc&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.EnableWebMvc&#10;@Transactio&#9;PSI&#9;JAVA://com.study.t5.TransactionalService&#10;ProducerConfig&#9;PSI&#9;JAVA://org.apache.kafka.clients.producer.ProducerConfig&#10;MetadataReader&#9;PSI&#9;JAVA://org.springframework.core.type.classreading.MetadataReader" />
+    <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mycat-Server/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.47241378" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.zl.io.bio.common" />
+      <recent name="com.gupao.service" />
+      <recent name="com.example.search" />
+      <recent name="com.study.format" />
+      <recent name="com.study.ioc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\struct-parent\interview-ready\src\main\java\com\study\zl\pattern" />
+      <recent name="D:\code\struct-parent\mybatis-generate-project\src\main\resources" />
+      <recent name="D:\code\struct-parent\mybatis-generate-project\src\main\java" />
+      <recent name="D:\code\struct-parent\mybatis-study-project\src\main\java" />
+      <recent name="D:\code\struct-parent\mybatis-study-project\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.annotation.search.App" />
+      <module name="spring-explore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.annotation.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.zl.pattern.observer.self.App" />
+      <module name="interview-ready" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.zl.pattern.observer.self.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.pattern.App" />
+      <module name="spring-explore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.annotation.component.App" />
+      <module name="spring-explore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.annotation.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringStyleSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.zl.algorithm.str.StringStyleSimple" />
+      <module name="interview-ready" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.zl.algorithm.str.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StringUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.zl.algorithm.str.StringUtil" />
+      <module name="interview-ready" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.zl.algorithm.str.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="PersonClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="person-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.spring.cloud.feign.client.PersonClientApplication" />
+    </configuration>
+    <configuration name="PersonServiceProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="person-service-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.spring.cloud.feign.person.service.provider.PersonServiceProviderApplication" />
+    </configuration>
+    <configuration name="SpringBootStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.App" />
+    </configuration>
+    <configuration name="SpringCloudConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudconfigclient.ConfigClientApp" />
+    </configuration>
+    <configuration name="SpringCloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudconfigserver.ConfigServerApp" />
+    </configuration>
+    <configuration name="SpringCloudEurekaClientDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-eureka-client-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudeurekaclientdemo.SpringCloudEurekaClientDemoApplication" />
+    </configuration>
+    <configuration name="SpringCloudEurekaServerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="spring-cloud-eureka-server-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudeurekaserverdemo.EurekaServerApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="SpringCloudFeignDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-feign-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudfeigndemo.SpringCloudFeignDemoApplication" />
+    </configuration>
+    <configuration name="SpringCloudHystrixClientDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-hystrix-client-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudhystrixclientdemo.SpringCloudHystrixClientDemoApplication" />
+    </configuration>
+    <configuration name="SpringCloudHystrixDashboardDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-hystrix-dashboard-demo1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudhystrixdashboarddemo.SpringCloudHystrixDashboardDemoApplication" />
+    </configuration>
+    <configuration name="SpringCloudServiceDiscoverClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-service-discover-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudservicediscoverclient.SpringCloudServiceDiscoverClientApplication" />
+    </configuration>
+    <configuration name="SpringCloudStudyParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-study-parent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudstudyparent.SpringCloudStudyParentApplication" />
+    </configuration>
+    <configuration name="UserServiceConsumerBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.user.UserServiceConsumerBootstrap" />
+    </configuration>
+    <configuration name="UserServiceProviderBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="user-service-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.user.UserServiceProviderBootstrap" />
+      <option name="PROGRAM_PARAMETERS" value="--server.port=7073" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringBootStudyApplication" />
+      <item itemvalue="Spring Boot.SpringCloudConfigClientApplication" />
+      <item itemvalue="Spring Boot.SpringCloudConfigServerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaServerDemoApplication" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaClientDemoApplication" />
+      <item itemvalue="Spring Boot.UserServiceProviderBootstrap" />
+      <item itemvalue="Spring Boot.SpringCloudHystrixClientDemoApplication" />
+      <item itemvalue="Spring Boot.UserServiceConsumerBootstrap" />
+      <item itemvalue="Spring Boot.SpringCloudServiceDiscoverClientApplication" />
+      <item itemvalue="Spring Boot.SpringCloudHystrixDashboardDemoApplication" />
+      <item itemvalue="Spring Boot.SpringCloudFeignDemoApplication" />
+      <item itemvalue="Spring Boot.SpringCloudStudyParentApplication" />
+      <item itemvalue="Spring Boot.PersonServiceProviderApplication" />
+      <item itemvalue="Spring Boot.PersonClientApplication" />
+      <item itemvalue="Application.App (4)" />
+      <item itemvalue="Application.StringUtil" />
+      <item itemvalue="Application.StringStyleSimple" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.App (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.StringStyleSimple" />
+        <item itemvalue="Application.StringUtil" />
+        <item itemvalue="Application.App (4)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06a85f66-c244-4ad9-8f4f-d0222d9b5387" name="Default" comment="" />
+      <created>1563889285582</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563889285582</updated>
+      <workItem from="1563889288610" duration="1981000" />
+      <workItem from="1563931063458" duration="4825000" />
+      <workItem from="1563936753847" duration="454000" />
+      <workItem from="1563938612917" duration="16242000" />
+      <workItem from="1563970153999" duration="6086000" />
+      <workItem from="1564023997144" duration="354000" />
+      <workItem from="1564039273443" duration="615000" />
+      <workItem from="1564041357592" duration="1230000" />
+      <workItem from="1564056563202" duration="399000" />
+      <workItem from="1564057601219" duration="262000" />
+      <workItem from="1564104751634" duration="38453000" />
+      <workItem from="1564229691288" duration="1827000" />
+      <workItem from="1564278942767" duration="22465000" />
+      <workItem from="1564362980492" duration="6102000" />
+      <workItem from="1564391797320" duration="378000" />
+      <workItem from="1564394325729" duration="2213000" />
+      <workItem from="1564396575834" duration="161000" />
+      <workItem from="1564396780500" duration="331000" />
+      <workItem from="1564397472831" duration="1323000" />
+      <workItem from="1564402214122" duration="3859000" />
+      <workItem from="1564450049659" duration="19163000" />
+      <workItem from="1564495581424" duration="968000" />
+      <workItem from="1564549308059" duration="1346000" />
+      <workItem from="1564581779736" duration="2031000" />
+      <workItem from="1564628435422" duration="782000" />
+      <workItem from="1564644884514" duration="8823000" />
+      <workItem from="1564668108661" duration="1533000" />
+      <workItem from="1564708987946" duration="195000" />
+      <workItem from="1564721015756" duration="444000" />
+      <workItem from="1564723613541" duration="604000" />
+      <workItem from="1564727553154" duration="2806000" />
+      <workItem from="1564796443355" duration="1293000" />
+      <workItem from="1564799799376" duration="2732000" />
+      <workItem from="1564822015928" duration="11732000" />
+      <workItem from="1564881919666" duration="11984000" />
+      <workItem from="1564901318101" duration="1715000" />
+      <workItem from="1564905631300" duration="641000" />
+      <workItem from="1564910212580" duration="1496000" />
+      <workItem from="1564920904876" duration="16000" />
+      <workItem from="1564922288352" duration="1048000" />
+      <workItem from="1564961317752" duration="2410000" />
+      <workItem from="1564995002247" duration="11106000" />
+      <workItem from="1565055530331" duration="20970000" />
+      <workItem from="1565140940156" duration="2188000" />
+      <workItem from="1565143733866" duration="351000" />
+      <workItem from="1565144164196" duration="643000" />
+      <workItem from="1565147512707" duration="24789000" />
+      <workItem from="1565227190026" duration="12987000" />
+      <workItem from="1565269315526" duration="6158000" />
+      <workItem from="1565315583538" duration="35475000" />
+      <workItem from="1565426122932" duration="7302000" />
+      <workItem from="1565486229869" duration="23137000" />
+      <workItem from="1565517331335" duration="18766000" />
+      <workItem from="1565613301228" duration="1436000" />
+      <workItem from="1565651782501" duration="5201000" />
+      <workItem from="1565689673238" duration="2948000" />
+      <workItem from="1565693398946" duration="794000" />
+      <workItem from="1565701652357" duration="3942000" />
+      <workItem from="1565745444983" duration="7421000" />
+      <workItem from="1565783602667" duration="1497000" />
+      <workItem from="1565831892317" duration="8977000" />
+      <workItem from="1565841512583" duration="7654000" />
+      <workItem from="1565935105640" duration="1143000" />
+      <workItem from="1565960240403" duration="1914000" />
+      <workItem from="1566005957772" duration="171000" />
+      <workItem from="1566006182888" duration="2124000" />
+      <workItem from="1566009313835" duration="12283000" />
+      <workItem from="1566091186609" duration="10132000" />
+      <workItem from="1566185199232" duration="1420000" />
+      <workItem from="1566205976180" duration="84000" />
+      <workItem from="1566209916671" duration="4031000" />
+      <workItem from="1566291155444" duration="3313000" />
+      <workItem from="1566350805275" duration="8030000" />
+      <workItem from="1566365958312" duration="662000" />
+      <workItem from="1566367105836" duration="7077000" />
+      <workItem from="1566524016709" duration="26623000" />
+      <workItem from="1566609641088" duration="8939000" />
+      <workItem from="1566622175424" duration="4685000" />
+      <workItem from="1566650079066" duration="1637000" />
+      <workItem from="1566695841699" duration="17357000" />
+      <workItem from="1566733224733" duration="1543000" />
+      <workItem from="1566816605818" duration="3062000" />
+      <workItem from="1566868855302" duration="2858000" />
+      <workItem from="1566994978505" duration="611000" />
+      <workItem from="1567068729053" duration="1386000" />
+      <workItem from="1567127771537" duration="9426000" />
+      <workItem from="1567214209731" duration="10232000" />
+      <workItem from="1567329910851" duration="1323000" />
+      <workItem from="1567387177209" duration="7409000" />
+      <workItem from="1567473512940" duration="10001000" />
+      <workItem from="1567501004406" duration="1663000" />
+      <workItem from="1567646794602" duration="2309000" />
+      <workItem from="1567685799251" duration="3992000" />
+      <workItem from="1567733386179" duration="8476000" />
+      <workItem from="1567818830548" duration="9332000" />
+      <workItem from="1567836339688" duration="4548000" />
+      <workItem from="1567845690622" duration="4885000" />
+      <workItem from="1567856839215" duration="504000" />
+      <workItem from="1567905201467" duration="7982000" />
+      <workItem from="1567924295270" duration="12518000" />
+      <workItem from="1567943070889" duration="438000" />
+      <workItem from="1568030786697" duration="1045000" />
+      <workItem from="1568098066592" duration="9242000" />
+      <workItem from="1568159337533" duration="1213000" />
+      <workItem from="1568160572735" duration="1894000" />
+      <workItem from="1568250970725" duration="8538000" />
+      <workItem from="1568337025036" duration="10518000" />
+      <workItem from="1568354646998" duration="4904000" />
+      <workItem from="1568423670626" duration="9840000" />
+      <workItem from="1568440184790" duration="10064000" />
+      <workItem from="1568510582076" duration="7697000" />
+      <workItem from="1568527732537" duration="5942000" />
+      <workItem from="1568536961222" duration="151000" />
+      <workItem from="1568691367494" duration="9000" />
+      <workItem from="1569029151267" duration="4928000" />
+      <workItem from="1569041105975" duration="10567000" />
+      <workItem from="1569116576780" duration="7695000" />
+      <workItem from="1569133547614" duration="9708000" />
+      <workItem from="1569153072063" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="707191000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.117219076" side_tool="true" weight="0.33628318" />
+      <window_info anchor="right" x="436" y="58" width="408" height="565" id="Maven Projects" order="4" type="SLIDING" weight="0.19886823" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" sideWeight="0.50088495" side_tool="true" weight="0.28860146" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36460176" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32920355" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8827809" weight="0.3858407" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.6294326" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.20048505" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32920355" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32983023" />
+      <window_info anchor="right" id="ZooKeeper" order="11" weight="0.32983023" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32920355" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5168142" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8827809" weight="0.34867257" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.69380534" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.117219076" side_tool="true" weight="0.33628318" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32920355" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32920355" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32983023" />
+      <window_info anchor="right" id="ZooKeeper" order="11" weight="0.32983023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.2497979" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info id="Structure" order="1" sideWeight="0.50088495" side_tool="true" weight="0.28860146" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32983023" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.10619469" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5345133" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/ioc/xml/BeanFactoryTest.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/ServiceConfig.class</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.6.3/dubbo-2.6.3.jar!/com/alibaba/dubbo/config/ServiceConfig.class</url>
+          <line>510</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.16.RELEASE/spring-core-4.3.16.RELEASE.jar!/org/springframework/core/type/filter/AbstractTypeHierarchyTraversingFilter.class</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.class</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kafka-study-project/src/main/java/com/gupao/study/KafkaConsumerService.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="180" />
+    </breakpoint-manager>
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="127.0.0.1" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="/" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>c</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map.get('[')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map.get('{')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map.get('(')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map.get(c)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.charAt(left+1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>metadataReader</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.metadataReaderFactory.getMetadataReader(resource)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>resource</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/RoundRobinRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/AbstractLoadBalancerRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IPing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-commons/1.2.4.RELEASE/spring-cloud-commons-1.2.4.RELEASE-sources.jar!/org/springframework/cloud/client/ServiceInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/appinfo/InstanceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/io/netty/netty-transport/4.0.27.Final/netty-transport-4.0.27.Final-sources.jar!/io/netty/channel/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="433" column="14" selection-start-line="433" selection-start-column="14" selection-end-line="433" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="412" column="4" lean-forward="true" selection-start-line="412" selection-start-column="4" selection-end-line="415" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="148" column="25" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="444" column="8" selection-start-line="444" selection-start-column="8" selection-end-line="465" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/t2/PCApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/t5/MyApp.java" />
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/t5/TransactionalService.java" />
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/t5/TransactionalServiceAnnotationMetadataBootstrap.java" />
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/resources/beans.xml" />
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/resources/test1.xml" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/stereotype/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="39" selection-start-line="39" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="102" selection-start-column="81" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/filter/AbstractTypeHierarchyTraversingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/filter/TypeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/context/config/ContextNamespaceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ScannedGenericBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScanBeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="219" column="25" selection-start-line="219" selection-start-column="20" selection-end-line="219" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="271" column="62" selection-start-line="271" selection-start-column="62" selection-end-line="271" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="187" column="99" selection-start-line="187" selection-start-column="88" selection-end-line="187" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/tomcat-annotations-api/8.5.23/tomcat-annotations-api-8.5.23-sources.jar!/javax/annotation/ManagedBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/OtherService.java" />
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/resources/beans1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/AnnotationMetadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/classreading/SimpleMetadataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/Documented.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/classreading/AnnotationMetadataReadingVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/classreading/MetadataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.18.RELEASE/spring-tx-4.3.18.RELEASE-sources.jar!/org/springframework/transaction/annotation/Transactional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="42" selection-start-line="42" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/TransactionalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="508" column="23" selection-start-line="508" selection-start-column="23" selection-end-line="508" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/LoanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/JdkService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-explore</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="mnv clean:clean" />
+  </component>
+</project>

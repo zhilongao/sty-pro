@@ -1,0 +1,46 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://code.alibabatech.com/schema/dubbo
+           http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!-- 应用 -->
+    <dubbo:application name="service-provider" owner="mick"/>
+    <!-- 模块 -->
+    <dubbo:module name="firstModule" id="firstModule" registry="zkRegistry" version="" owner="" monitor=""/>
+    <dubbo:module name="secondModule" id="secondModule" registry="zkRegistry" version="" owner="" monitor=""/>
+
+    <!--  注册中心` -->
+    <dubbo:registry id="zkRegistry" address="zookeeper://127.0.0.1:2181"/>
+
+    <!-- 如何配置dubbo:monitor -->
+    <dubbo:monitor protocol="registry"/>
+
+
+    <!-- 多协议支持 -->
+    <!--<dubbo:protocol name="hessian" port="20881" server="jetty" />-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+    <!-- 服务提供者  应用 模块-->
+    <dubbo:provider application="service-provider" module="firstModule" registry="zkRegistry" protocol="dubbo">
+        <dubbo:service interface="com.gupao.study.order.service.OrderService" ref="orderServiceA" protocol="dubbo" group="groupA" export="true"
+                       mock="com.gupao.service.mock.OrderServiceImplMock">
+            <dubbo:method name="save" timeout="100" retry="false">
+                <dubbo:argument type="com.gupao.study.order.domain.Order" index="0" callback="true"/>
+            </dubbo:method>
+            <dubbo:method name="findAll" timeout="500"/>
+            <dubbo:method name="saveHello" retry="true"/>
+        </dubbo:service>
+    </dubbo:provider>
+
+    <!-- 服务提供者 应用 模块 -->
+    <dubbo:provider application="service-provider" module="secondModule" registry="zkRegistry">
+        <dubbo:service interface="com.gupao.study.order.service.OrderService" ref="orderServiceB" protocol="dubbo" group="groupB"/>
+    </dubbo:provider>
+
+
+    <!-- 对外提供的bane -->
+    <bean id="orderServiceA" class="com.gupao.service.order.OrderServiceImplA"/>
+    <bean id="orderServiceB" class="com.gupao.service.order.OrderServiceImplB"/>
+</beans>
