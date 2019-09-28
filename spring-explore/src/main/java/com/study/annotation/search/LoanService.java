@@ -11,5 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class LoanService {
 
-
+    public String getServiceName() {
+        return "beijing-service";
+    }
 }

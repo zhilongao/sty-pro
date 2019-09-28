@@ -6,4 +6,5 @@ package com.study.annotation.search;
  */
 @TransactionalService(name = "test")
 public class JdkService {
+
 }

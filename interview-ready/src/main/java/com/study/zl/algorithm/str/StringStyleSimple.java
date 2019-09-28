@@ -8,24 +8,78 @@ import java.util.*;
  */
 public class StringStyleSimple {
 
-    public static void main(String[] args) {
-        /*String s1 = "()";
-        String s2 = "()[]{}";
-        String s3 = "(]";
-        String s4 = "([)]";
-        String s5 = "{[]}";
-        String s6 = "(([]){})";
-        System.out.println(isValid1(s1));
-        System.out.println(isValid1(s2));
-        System.out.println(isValid1(s3));
-        System.out.println(isValid1(s4));
-        System.out.println(isValid1(s5));
-        System.out.println(isValid1(s6));*/
-
-        String s = countAndSay(5);
-        System.out.println(s);
+    public static void main(String[] args) throws InterruptedException {
+        // String a1 = "11"; String a2 = "1";
+       String s3 = ".";
+       System.out.println(isPalindrome(s3));
 
     }
+    // 验证回文串，只考虑数字和字母，并且字母忽略大小写
+    public static boolean isPalindrome(String s) {
+        if (s == null || s.trim().length() == 0) {
+            return true;
+        }
+        String dealStr = s.toLowerCase();
+        int left = 0;
+        int right = dealStr.length() - 1;
+        while (left < right) {
+            while (left < right &&!isSuitable(dealStr.charAt(left))) {
+                left ++;
+            }
+            while (left < right && !isSuitable(dealStr.charAt(right))) {
+                right --;
+            }
+            if (left >= right) {
+                return true;
+            }
+            if (dealStr.charAt(left ++) != dealStr.charAt(right--)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+    public static boolean isSuitable (char a) {
+        return Character.isLetter(a) || Character.isDigit(a);
+    }
+
+
+    public static String addBinaryA(String a, String b) {
+        // 定义一个StringBuilder拼接计算结果
+        StringBuilder ans = new StringBuilder();
+        int ca = 0;
+        // 从两个字符串的尾部开始遍历，直到遍历到最长字符串的首位
+        for(int i = a.length() - 1, j = b.length() - 1;i >= 0 || j >= 0; i--, j--) {
+            int sum = ca;
+            // a.charAt(i) - '0' 将ASCII码转换为字符所代表的数值
+            sum += i >= 0 ? a.charAt(i) - '0' : 0;
+            sum += j >= 0 ? b.charAt(j) - '0' : 0;
+            // 将2的余数拼接到字符串上
+            ans.append(sum % 2);
+            // 将2的除数进位
+            ca = sum / 2;
+        }
+        ans.append(ca == 1 ? ca : "");
+        return ans.reverse().toString();
+    }
+
+
+    private static String fillString(String original, int maxLength) {
+        String newStr = original;
+        int length = original.length();
+        if (length < maxLength) {
+            int i = maxLength - length;
+            StringBuffer buf = new StringBuffer();
+            for (int j = 0; j < i; j++) {
+                buf.append("0");
+            }
+            newStr = buf.toString() + newStr;
+        }
+        return newStr;
+    }
+
+
 
     // 报数问题
     public static String countAndSay(int n) {

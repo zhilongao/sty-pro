@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 
 import java.lang.annotation.*;
 
+/***
+ * 该注解派生自@Repository注解
+ */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
