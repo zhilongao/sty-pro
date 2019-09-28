@@ -1,6 +1,6 @@
-package com.study.annotation.search;
+package com.study.annotation.parser;
 
-import com.sun.deploy.util.ReflectionUtil;
+import com.study.annotation.parser.bean.TransactionalServiceBean;
 import org.springframework.core.annotation.AnnotatedElementUtils;
 import org.springframework.core.annotation.AnnotationAttributes;
 import org.springframework.core.type.AnnotationMetadata;
@@ -30,10 +30,23 @@ public class AnnotationParser {
         // parserAttributeByUtil();
         // loopParser();
         // parserBySpring();
-        parseAttributes();
+        // parseAttributes();
+        parserAttributesByCls();
     }
 
     /************************理解AnnotationAttributes******************************/
+
+    public static void parserAttributesByCls() {
+        AnnotatedElement annotatedElement = TransactionalServiceBean.class;
+        AnnotationAttributes serviceAttributes = AnnotatedElementUtils.getMergedAnnotationAttributes(annotatedElement, Service.class);
+        AnnotationAttributes transactionalAttributes = AnnotatedElementUtils.getMergedAnnotationAttributes(annotatedElement, Transactional.class);
+        // 输出
+        printAnnotationAttr(serviceAttributes);
+        System.out.println("================");
+        printAnnotationAttr(transactionalAttributes);
+    }
+
+
     public static void parseAttributes() {
         AnnotatedElement annotatedElement = TransactionalService.class;
         // 获取@Service注解属性独享

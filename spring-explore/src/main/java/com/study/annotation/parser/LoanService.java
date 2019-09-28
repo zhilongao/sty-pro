@@ -1,4 +1,4 @@
-package com.study.annotation.search;
+package com.study.annotation.parser;
 
 import com.study.annotation.component.StringRepository;
 import org.springframework.stereotype.Service;
