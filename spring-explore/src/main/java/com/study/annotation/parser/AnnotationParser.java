@@ -34,8 +34,10 @@ public class AnnotationParser {
         parserAttributesByCls();
     }
 
-    /************************理解AnnotationAttributes******************************/
 
+
+
+    /************************理解AnnotationAttributes******************************/
     public static void parserAttributesByCls() {
         AnnotatedElement annotatedElement = TransactionalServiceBean.class;
         AnnotationAttributes serviceAttributes = AnnotatedElementUtils.getMergedAnnotationAttributes(annotatedElement, Service.class);
