@@ -9,11 +9,76 @@ import java.util.*;
 public class StringStyleSimple {
 
     public static void main(String[] args) throws InterruptedException {
-        // String a1 = "11"; String a2 = "1";
-       String s3 = ".";
-       System.out.println(isPalindrome(s3));
-
+        String a1 = "a"; String a2 = "b";
+        String b1 = "aa"; String b2 = "ab";
+        String c1 = "aa"; String c2 = "aab";
+        boolean bb1 = canConstruct(a1, a2);
+        boolean bb2 = canConstruct(b1, b2);
+        boolean bb3 = canConstruct(c1, c2);
+        System.out.println(bb1 + " " + bb2 + " " + bb3);
     }
+
+    // 给定一个字符串，找到它的第一个不重复的字符，并返回它的索引。如果不存在，返回 -1
+    // 该字符串中只包含小写字母
+    public int firstUniqChar(String s) {
+        Map<Character, Integer> map = new HashMap<>();
+        for (int i = 0; i < s.length(); i++) {
+            if (!map.containsKey(s.charAt(i))) {
+                map.put(s.charAt(i), 0);
+            } else {
+                map.put(s.charAt(i), map.get(s.charAt(i)) + 1);
+            }
+        }
+        for (int i = 0; i < s.length(); i++) {
+            if (map.get(s.charAt(i)) == 0) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    // 优化方法：从字符串的前后两个位置同时开始查找，相遇时连个
+    public int firstUniqCharA(String s) {
+        char[] original = "abcdefghijklmnopqrstuvwxyz".toCharArray();
+        int index = s.length();
+        for (char c : original) {
+            int first = s.indexOf(c);
+            if (first != -1 && first == s.lastIndexOf(c)) {
+                index = Math.min(first, index);
+            }
+        }
+        if (index != s.length()) {
+            return index;
+        } else {
+            return -1;
+        }
+    }
+
+
+
+
+
+    // 救赎金问题
+    // 第一个字符串里面的字符能不能由第二个字符串里面的字符构成，若可以，返回true。否则返回false。
+    public static boolean canConstruct(String ransomNote, String magazine) {
+        int[] bucket = new int[26];
+        for (int i = 0; i < magazine.length() ; i++) {
+            // magazine.charAt(i) - 'a' 计算范围只会在0-25范围内
+            // 故0-25位置上存储的就是z-a各个字符的个数
+            bucket[magazine.charAt(i) - 'a'] ++;
+        }
+        for (int i = 0; i < ransomNote.length(); i++) {
+            // 没次遍历，将该位置的字符个数减一
+            if (-- bucket[ransomNote.charAt(i) - 'a'] < 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+
+
     // 验证回文串，只考虑数字和字母，并且字母忽略大小写
     public static boolean isPalindrome(String s) {
         if (s == null || s.trim().length() == 0) {

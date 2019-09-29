@@ -2,80 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06a85f66-c244-4ad9-8f4f-d0222d9b5387" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__org_springframework_spring_aop_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__org_springframework_spring_beans_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__org_springframework_spring_context_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__org_springframework_spring_core_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__org_springframework_spring_expression_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__org_springframework_spring_tx_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/spring-explore.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/xml/XmlContextBootStrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t2/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t2/PCApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t2/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t3/SelfThreadPool$DefaultThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t3/SelfThreadPool$Work.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t3/SelfThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t3/TestApp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t3/TestApp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t3/TestApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t4/ConditionNotify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t4/ConditionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview-ready/target/classes/com/study/zl/t4/ConditionWait.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/src/resources/beans1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-explore/src/resources/beans1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/beans1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-explore/target/classes/beans1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/configuration/BeanConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/dao/AmericaPeopleDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/dao/ChinesePeopleDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/dao/PeopleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/other/BeanConfigurationA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/other/BeanConfigurationB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/other/EntityA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/other/EntityB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/other/EntityC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/other/MockInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/other/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/service/PeopleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/service/PeopleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotations/test/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/entity/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/entity/BeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/entity/OtherBeanDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/entity/People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/ioc/condition/LinuxCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/ioc/condition/WindowsCondition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/ioc/config/BeanConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/ioc/config/BeanConfigOther.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/ioc/config/ConfigApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/ioc/xml/BeanFactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t5/MyApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t5/TransactionalService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t5/TransactionalServiceAnnotationMetadataBootstrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t6/EnableHelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t6/EnableHelloWorldBootstrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t6/HelloWorldConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t7/EnableServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t7/EnableServerBootstrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t7/FtpServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t7/HttpServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t7/Server$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t7/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t7/ServerImportBeanDefinitionRegistrar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t7/ServerImportSelector$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/t7/ServerImportSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt1/BeanAndXmlConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt1/OtherBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt1/OtherConfig$Marker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt1/OtherConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt1/Test111.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt2/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt2/BeanConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt2/MyService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt2/TestA1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt2/TestA2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt2/TestA3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/tt2/TestA4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-explore/spring-explore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-explore/spring-explore.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-study/target/" />
@@ -127,41 +70,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnableServerBootStrap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/EnableServerBootStrap.java">
+      <file leaf-file-name="StringStyleSimple.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+            <state relative-caret-position="209">
+              <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractApplicationContext.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="499" column="39" selection-start-line="499" selection-start-column="39" selection-end-line="499" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurationClassPostProcessor.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurationClassParser.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="257" column="32" selection-start-line="257" selection-start-column="32" selection-end-line="257" selection-end-column="32" />
+            <state relative-caret-position="322">
+              <caret line="1558" column="25" selection-start-line="1558" selection-start-column="20" selection-end-line="1558" selection-end-column="25" />
+              <folding>
+                <element signature="e#58481#58482#0" expanded="true" />
+                <element signature="e#58518#58519#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -261,7 +191,6 @@
         <option value="$PROJECT_DIR$/dubbo-service-project/service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/usual-project/zk-search-study/pom.xml" />
         <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/safe/TestFile.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/JdkService.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringRepository.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/LoanService.java" />
@@ -282,6 +211,7 @@
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/ServerImportBeanDefinitionRegistrar.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/EnableServer.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/EnableServerBootStrap.java" />
+        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java" />
       </list>
     </option>
   </component>
@@ -326,9 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -336,10 +264,93 @@
               <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="interview-ready" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="interview-ready" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="interview-ready" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="interview-ready" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="interview-ready" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="interview-ready" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="interview-ready" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="zl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="interview-ready" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="zl" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="interview-ready" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="zl" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="str" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,7 +406,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnableServerBootStrap">
+  <component name="RunManager" selected="Application.StringStyleSimple">
     <configuration name="AnnotationParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.annotation.parser.AnnotationParser" />
       <module name="spring-explore" />
@@ -585,11 +596,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringStyleSimple" />
         <item itemvalue="Application.EnableServerBootStrap" />
         <item itemvalue="Application.EnableHelloWorldBootStrap" />
         <item itemvalue="Application.AnnotationParser" />
         <item itemvalue="Application.CoverSearch" />
-        <item itemvalue="Application.StringStyleSimple" />
       </list>
     </recent_temporary>
   </component>
@@ -730,11 +741,12 @@
       <workItem from="1569546926079" duration="18946000" />
       <workItem from="1569636581426" duration="22020000" />
       <workItem from="1569719697168" duration="4896000" />
+      <workItem from="1569740850591" duration="4454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="759535000" />
+    <option name="totallyTimeSpent" value="763989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -762,11 +774,10 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8827809" weight="0.38475177" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.62477875" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.31123686" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6241135" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.31123686" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5159575" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32920355" />
@@ -775,6 +786,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5159575" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -932,13 +944,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="288" column="48" selection-start-line="288" selection-start-column="22" selection-end-line="288" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/safe/TestFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -956,13 +961,6 @@
     <entry file="file://$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/safe/FlexibleAtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/nio/DirectByteBuffer.java">
@@ -1152,9 +1150,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="16" column="48" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1162,9 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1200,7 +1192,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="493.5" y="96.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="494.0" y="97.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1218,7 +1210,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="95.5" y="15.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="96.0" y="16.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1261,9 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="257" selection-start-line="257" selection-end-line="257" />
-          <folding>
-            <element signature="e#10930#10952#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1288,6 +1277,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7733">
+          <caret line="499" column="39" selection-start-line="499" selection-start-column="39" selection-end-line="499" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3344">
+          <caret line="257" column="32" selection-start-line="257" selection-start-column="32" selection-end-line="257" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/EnableServerBootStrap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -1298,31 +1315,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="322">
+          <caret line="1558" column="25" selection-start-line="1558" selection-start-column="20" selection-end-line="1558" selection-end-column="25" />
+          <folding>
+            <element signature="e#58481#58482#0" expanded="true" />
+            <element signature="e#58518#58519#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+    <entry file="file://$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="499" column="39" selection-start-line="499" selection-start-column="39" selection-end-line="499" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="257" column="32" selection-start-line="257" selection-start-column="32" selection-end-line="257" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
+        <state relative-caret-position="209">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
