@@ -18,15 +18,16 @@ import java.util.Map;
 /**
  * @Author long
  * @Date 2019/9/28 16:05
- * 实现引导类
+ * 实现引导类, 关于注解属性的覆盖
+ *
  */
 @Configuration
 @ComponentScan(basePackageClasses = TransactionalServiceBean.class) // 扫描包路径
 @EnableTransactionManagement // 激活事务
-public class CoverSearch {
+public class AttributeCoverSearch {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(CoverSearch.class);
+        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(AttributeCoverSearch.class);
         Map<String, TransactionalServiceBean> beansMap = context.getBeansOfType(TransactionalServiceBean.class);
         beansMap.forEach((beanName, bean) -> {
             System.out.printf("Bean 名称 : %s, 对象 : %s\n", beanName, bean);

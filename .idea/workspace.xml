@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06a85f66-c244-4ad9-8f4f-d0222d9b5387" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalMessageConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalOnSystemProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalOnSystemPropertyBootStrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/OnSystemPropertyCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/profile/CalculatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/profile/CalculatingServiceBootStrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/profile/IterationCalculatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/profile/LambdaCalculatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationMetadataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationParserUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/CoverSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AttributeCoverSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotation/component/StringRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotation/component/StringRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotation/parser/AnnotationParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-explore/target/classes/com/study/annotation/parser/AnnotationParser.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-study/target/" />
@@ -62,52 +61,12 @@
     <SUITE FILE_PATH="coverage/struct_parent$SpringCloudEurekaServerDemoApplication.ic" NAME="SpringCloudEurekaServerDemoApplication Coverage Results" MODIFIED="1564285757471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ConditionalOnSystemProperty.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalOnSystemProperty.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AnnotationMetadataTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationMetadataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnSystemPropertyCondition.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/OnSystemPropertyCondition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConditionalMessageConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalMessageConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConditionalOnSystemPropertyBootStrap.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalOnSystemPropertyBootStrap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            <state relative-caret-position="247">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,7 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RUNNING</find>
       <find>putLock</find>
       <find>key.ser</find>
       <find>value.serializer</find>
@@ -153,12 +111,13 @@
       <find>当前配置已更新</find>
       <find>ConfigServerAutoConfiguration</find>
       <find>cancelAcquire</find>
-      <find>parse</find>
       <find>registerDefaul</find>
       <find>org.apache.zookeeper</find>
       <find>LoanService</find>
       <find>AnnotationCof</find>
       <find>Configu</find>
+      <find>basePakcage</find>
+      <find>parse</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -180,11 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/listener/jdk/App.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/pattern/listener/jdk/MyEventSource.java" />
-        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/pattern/App.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringUtil.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/java/com/gupao/springcloudconfigclient/controller/EchoController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs/config-test.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-config-client/src/main/resources/application.properties" />
@@ -201,7 +155,6 @@
         <option value="$PROJECT_DIR$/usual-project/zk-search-study/pom.xml" />
         <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/safe/TestFile.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/JdkService.java" />
-        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringRepository.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/LoanService.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/App.java" />
         <option value="$PROJECT_DIR$/spring-explore/pom.xml" />
@@ -231,6 +184,12 @@
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/OnSystemPropertyCondition.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalMessageConfiguration.java" />
         <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalOnSystemPropertyBootStrap.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringRepository.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationParser.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationParserUtil.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AttributeCoverSearch.java" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/readme.txt" />
+        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationMetadataTest.java" />
       </list>
     </option>
   </component>
@@ -275,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,15 +315,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="annotation" type="462c0819:PsiDirectoryNode" />
-              <item name="conditiional" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,7 +333,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="AbstractApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.support.AbstractApplicationContext&#10;AnnotationConfigBeanDefinitionParser&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigBeanDefinitionParser.java&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;ComponentScanBeanDefinitionParser&#9;PSI&#9;JAVA://org.springframework.context.annotation.ComponentScanBeanDefinitionParser&#10;@Document&#9;PSI&#9;JAVA://java.lang.annotation.Documented&#10;MetaDataRe&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/classreading/MetadataReader.java&#10;ManagedBean&#9;PSI&#9;JAVA://javax.annotation.ManagedBean&#10;Class&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java&#10;ComponentScan&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScanBeanDefinitionParser.java&#10;Scanner&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java&#10;ContextNamespaceHandler&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/context/config/ContextNamespaceHandler.java&#10;spring.handlers&#9;FILE&#9;jar://C:/Users/long/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3-sources.jar!/META-INF/spring.handlers&#10;@Controller&#9;PSI&#9;JAVA://org.springframework.stereotype.Controller&#10;Unsafe&#9;PSI&#9;JAVA://sun.misc.Unsafe&#10;Unsa&#9;PSI&#9;JAVA://io.netty.channel.Channel.Unsafe&#10;InstanceInfo&#9;FILE&#9;jar://C:/Users/long/.m2/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/appinfo/InstanceInfo.java&#10;ILoadBalancer&#9;FILE&#9;jar://C:/Users/long/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java&#10;IPing&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IPing&#10;Server&#9;PSI&#9;JAVA://com.study.t7.Server&#10;ServiceInstance&#9;PSI&#9;JAVA://org.springframework.cloud.client.ServiceInstance&#10;ILoa&#9;PSI&#9;JAVA://com.netflix.loadbalancer.ILoadBalancer&#10;IRule&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IRule&#10;EnvironmentContr&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.EnvironmentController&#10;spring.cloud.config.uri&#9;PSI&#9;JAVA://org.springframework.cloud.config.client.ConfigClientProperties#uri&#10;ConfigServerAutoConfiguration&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/cloud/spring-cloud-config-server/2.1.3.RELEASE/spring-cloud-config-server-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerAutoConfiguration.java&#10;@EnableAutoConfig&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;@EnableWebM&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.EnableWebMvc&#10;EnableAu&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.8.RELEASE/spring-boot-autoconfigure-1.5.8.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class&#10;BootStrapApplicationListener&#9;PSI&#9;JAVA://org.springframework.cloud.bootstrap.BootstrapApplicationListener&#10;ApplicationF&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationFailedEvent&#10;ApplicationReadyEvent&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationReadyEvent&#10;ApplicationStartingEvent&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationStartingEvent&#10;ApplicationPreparedEvent&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationPreparedEvent&#10;ApplicationEnvironmentPre&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/boot/spring-boot/1.5.8.RELEASE/spring-boot-1.5.8.RELEASE.jar!/org/springframework/boot/context/event/ApplicationEnvironmentPreparedEvent.class&#10;EventListener&#9;PSI&#9;JAVA://java.util.EventListener&#10;EventObject&#9;PSI&#9;JAVA://java.util.EventObject&#10;Thread&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java&#10;LinkedTransferQu&#9;PSI&#9;JAVA://java.util.concurrent.LinkedTransferQueue&#10;OnClass&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.8.RELEASE/spring-boot-autoconfigure-1.5.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnClassCondition.java&#10;OnClassCondition&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.condition.OnClassCondition&#10;@SpringBootApplication&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.SpringBootApplication&#10;@Profile&#9;PSI&#9;JAVA://org.springframework.context.annotation.Profile&#10;ProducerCOnfig&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/clients/producer/ProducerConfig.class&#10;ConsumerConfig&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.class&#10;ProducerC&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/apache/kafka/kafka-clients/1.1.0/kafka-clients-1.1.0.jar!/org/apache/kafka/clients/producer/ProducerConfig.class&#10;ConfigurationClassPostProcessor&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.class&#10;ConfigurationPostClass&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.class&#10;@EnableCaching&#9;PSI&#9;JAVA://org.springframework.cache.annotation.EnableCaching&#10;@EnableWebMvc&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.EnableWebMvc&#10;EnableWebMvc&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.EnableWebMvc" />
+    <property name="SearchEverywhereHistoryKey" value="AnnotationMetadata&#9;PSI&#9;JAVA://org.springframework.core.type.AnnotationMetadata&#10;AnnotationMe&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/core/type/AnnotationMetadata.java&#10;@Service&#9;PSI&#9;JAVA://com.study.annotation.parser.TransactionalService&#10;MetadataReader&#9;PSI&#9;JAVA://org.springframework.core.type.classreading.MetadataReader&#10;MetaDataReader&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/classreading/MetadataReaderFactory.java&#10;AnnotationAttributesReadingVisitor&#9;PSI&#9;JAVA://org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor&#10;ComponentScanBeanDefinitionParser&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScanBeanDefinitionParser.java&#10;ContextNamespaceHandler&#9;PSI&#9;JAVA://org.springframework.context.config.ContextNamespaceHandler&#10;spring.handlers&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/META-INF/spring.handlers&#10;@Controller&#9;PSI&#9;JAVA://org.springframework.stereotype.Controller&#10;@Configuration&#9;PSI&#9;JAVA://org.springframework.context.annotation.Configuration&#10;ComponentScan&#9;PSI&#9;JAVA://org.springframework.context.annotation.ComponentScan&#10;ProfileCondition&#9;PSI&#9;JAVA://org.springframework.context.annotation.ProfileCondition&#10;AbstractApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.support.AbstractApplicationContext&#10;AnnotationConfigBeanDefinitionParser&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigBeanDefinitionParser.java&#10;AnnotationConfigApplicationContext&#9;PSI&#9;JAVA://org.springframework.context.annotation.AnnotationConfigApplicationContext&#10;@Document&#9;PSI&#9;JAVA://java.lang.annotation.Documented&#10;MetaDataRe&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/classreading/MetadataReader.java&#10;ManagedBean&#9;PSI&#9;JAVA://javax.annotation.ManagedBean&#10;Class&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java&#10;Scanner&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java&#10;Unsafe&#9;PSI&#9;JAVA://sun.misc.Unsafe&#10;Unsa&#9;PSI&#9;JAVA://io.netty.channel.Channel.Unsafe&#10;InstanceInfo&#9;FILE&#9;jar://C:/Users/long/.m2/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/appinfo/InstanceInfo.java&#10;ILoadBalancer&#9;FILE&#9;jar://C:/Users/long/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java&#10;IPing&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IPing&#10;Server&#9;PSI&#9;JAVA://com.study.t7.Server&#10;ServiceInstance&#9;PSI&#9;JAVA://org.springframework.cloud.client.ServiceInstance&#10;ILoa&#9;PSI&#9;JAVA://com.netflix.loadbalancer.ILoadBalancer&#10;IRule&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IRule&#10;EnvironmentContr&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.EnvironmentController&#10;spring.cloud.config.uri&#9;PSI&#9;JAVA://org.springframework.cloud.config.client.ConfigClientProperties#uri&#10;ConfigServerAutoConfiguration&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/cloud/spring-cloud-config-server/2.1.3.RELEASE/spring-cloud-config-server-2.1.3.RELEASE-sources.jar!/org/springframework/cloud/config/server/config/ConfigServerAutoConfiguration.java&#10;@EnableAutoConfig&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.EnableAutoConfiguration&#10;@EnableWebM&#9;PSI&#9;JAVA://org.springframework.web.servlet.config.annotation.EnableWebMvc&#10;EnableAu&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.8.RELEASE/spring-boot-autoconfigure-1.5.8.RELEASE.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.class&#10;BootStrapApplicationListener&#9;PSI&#9;JAVA://org.springframework.cloud.bootstrap.BootstrapApplicationListener&#10;ApplicationF&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationFailedEvent&#10;ApplicationReadyEvent&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationReadyEvent&#10;ApplicationStartingEvent&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationStartingEvent&#10;ApplicationPreparedEvent&#9;PSI&#9;JAVA://org.springframework.boot.context.event.ApplicationPreparedEvent&#10;ApplicationEnvironmentPre&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/boot/spring-boot/1.5.8.RELEASE/spring-boot-1.5.8.RELEASE.jar!/org/springframework/boot/context/event/ApplicationEnvironmentPreparedEvent.class&#10;EventListener&#9;PSI&#9;JAVA://java.util.EventListener&#10;EventObject&#9;PSI&#9;JAVA://java.util.EventObject&#10;Thread&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java&#10;LinkedTransferQu&#9;PSI&#9;JAVA://java.util.concurrent.LinkedTransferQueue&#10;OnClass&#9;FILE&#9;jar://C:/Users/long/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.8.RELEASE/spring-boot-autoconfigure-1.5.8.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/OnClassCondition.java&#10;OnClassCondition&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.condition.OnClassCondition&#10;@SpringBootApplication&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.SpringBootApplication&#10;@Profile&#9;PSI&#9;JAVA://org.springframework.context.annotation.Profile" />
     <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -419,7 +378,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConditionalOnSystemPropertyBootStrap">
+  <component name="RunManager" selected="Application.AnnotationMetadataTest">
+    <configuration name="AnnotationMetadataTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.annotation.parser.AnnotationMetadataTest" />
+      <module name="spring-explore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.annotation.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="AnnotationParserUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.annotation.parser.AnnotationParserUtil" />
+      <module name="spring-explore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.annotation.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.zl.pattern.observer.self.App" />
       <module name="interview-ready" />
@@ -427,6 +408,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.zl.pattern.observer.self.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.annotation.component.App" />
+      <module name="spring-explore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.annotation.component.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -449,39 +441,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.annotation.conditiional.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="EnableHelloWorldBootStrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.annotation.enable.annotation.EnableHelloWorldBootStrap" />
-      <module name="spring-explore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.annotation.enable.annotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="EnableServerBootStrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.annotation.enable.inter.EnableServerBootStrap" />
-      <module name="spring-explore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.annotation.enable.inter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StringStyleSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.zl.algorithm.str.StringStyleSimple" />
-      <module name="interview-ready" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.zl.algorithm.str.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -601,19 +560,19 @@
       <item itemvalue="Spring Boot.SpringCloudStudyParentApplication" />
       <item itemvalue="Spring Boot.PersonServiceProviderApplication" />
       <item itemvalue="Spring Boot.PersonClientApplication" />
-      <item itemvalue="Application.StringStyleSimple" />
-      <item itemvalue="Application.EnableHelloWorldBootStrap" />
-      <item itemvalue="Application.EnableServerBootStrap" />
       <item itemvalue="Application.CalculatingServiceBootStrap" />
       <item itemvalue="Application.ConditionalOnSystemPropertyBootStrap" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.AnnotationParserUtil" />
+      <item itemvalue="Application.AnnotationMetadataTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnnotationMetadataTest" />
+        <item itemvalue="Application.AnnotationParserUtil" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.ConditionalOnSystemPropertyBootStrap" />
         <item itemvalue="Application.CalculatingServiceBootStrap" />
-        <item itemvalue="Application.StringStyleSimple" />
-        <item itemvalue="Application.EnableServerBootStrap" />
-        <item itemvalue="Application.EnableHelloWorldBootStrap" />
       </list>
     </recent_temporary>
   </component>
@@ -755,12 +714,14 @@
       <workItem from="1569636581426" duration="22020000" />
       <workItem from="1569719697168" duration="4896000" />
       <workItem from="1569740850591" duration="5119000" />
-      <workItem from="1569746762283" duration="3173000" />
+      <workItem from="1569746762283" duration="3325000" />
+      <workItem from="1569806158235" duration="7943000" />
+      <workItem from="1569831046752" duration="3819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="767827000" />
+    <option name="totallyTimeSpent" value="779741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -788,8 +749,8 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8827809" weight="0.38475177" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6241135" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.31123686" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.62300885" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49911505" weight="0.31285366" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="10" />
@@ -890,7 +851,7 @@
           <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="189" />
+      <option name="time" value="192" />
     </breakpoint-manager>
   </component>
   <component name="ZooKeeperConfig">
@@ -911,17 +872,27 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>metaAnnotationTypes</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>annotation.annotationType().getAnnotations()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>annotation.annotationType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>annotationMetadata.getAnnotationTypes()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
         <expression-string>annotationMetadata</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>metaAnnotationTypes</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -945,31 +916,230 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>sum += (i &gt;= 0 ? a.charAt(i) - '0' : 0);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>sum += i &gt;= 0</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalOnSystemProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalMessageConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalOnSystemPropertyBootStrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/OnSystemPropertyCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="89" column="35" lean-forward="true" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/stereotype/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="39" selection-start-line="39" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="404" column="31" selection-start-line="404" selection-start-column="18" selection-end-line="404" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ProfileCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" selection-start-line="9" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/context/config/ContextNamespaceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="43" column="89" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-beans/4.3.18.RELEASE/spring-beans-4.3.18.RELEASE-sources.jar!/org/springframework/beans/factory/xml/BeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/resources/beans1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="271" column="61" selection-start-line="271" selection-start-column="61" selection-end-line="271" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="286" column="89" selection-start-line="286" selection-start-column="89" selection-end-line="286" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScanBeanDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="86" column="64" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/core/type/classreading/AnnotationMetadataReadingVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="48" column="42" lean-forward="true" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.16.RELEASE/spring-core-4.3.16.RELEASE-sources.jar!/org/springframework/core/type/classreading/AnnotationAttributesReadingVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/core/type/StandardAnnotationMetadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="33" column="69" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/classreading/MetadataReaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/core/type/classreading/SimpleMetadataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/core/type/classreading/MetadataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.16.RELEASE/spring-core-4.3.16.RELEASE-sources.jar!/org/springframework/core/type/classreading/MetadataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.16.RELEASE/spring-core-4.3.16.RELEASE-sources.jar!/org/springframework/core/type/ClassMetadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="28" column="24" lean-forward="true" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.16.RELEASE/spring-core-4.3.16.RELEASE-sources.jar!/org/springframework/core/type/classreading/SimpleMetadataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.16.RELEASE/spring-core-4.3.16.RELEASE-sources.jar!/org/springframework/core/type/classreading/ClassMetadataReadingVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="44" column="6" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/stereotype/Component.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="494">
           <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/search/App.java" />
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/LoanService.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="494">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.18.RELEASE/spring-tx-4.3.18.RELEASE-sources.jar!/org/springframework/transaction/annotation/Transactional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" selection-start-line="11" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/bean/TransactionalServiceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -980,384 +1150,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-tx/4.3.18.RELEASE/spring-tx-4.3.18.RELEASE-sources.jar!/org/springframework/transaction/annotation/Transactional.java">
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/LoanService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="63" column="33" selection-start-line="63" selection-start-column="15" selection-end-line="63" selection-end-column="33" />
+        <state relative-caret-position="190">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/CoverSearch.java">
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/xml/XmlContextBootStrap.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/AnnotatedElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="28" column="107" selection-start-line="28" selection-start-column="107" selection-end-line="28" selection-end-column="107" />
+        <state relative-caret-position="-221">
+          <caret line="237" column="17" selection-start-line="237" selection-start-column="17" selection-end-line="237" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/bean/TransactionalServiceBean.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/util/ReflectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="178">
+          <caret line="521" column="23" selection-start-line="521" selection-start-column="23" selection-end-line="521" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/stereotype/Service.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/Annotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        <state relative-caret-position="383">
+          <caret line="134" column="46" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-study/src/main/java/com/example/App.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="227">
+          <caret line="3444" column="24" selection-start-line="3444" selection-start-column="24" selection-end-line="3444" selection-end-column="24" />
+          <folding>
+            <element signature="e#139547#139548#0" expanded="true" />
+            <element signature="e#139624#139625#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        <state relative-caret-position="102">
+          <caret line="750" column="10" selection-start-line="750" selection-start-column="10" selection-end-line="750" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="42" column="138" selection-start-line="42" selection-start-column="138" selection-end-line="42" selection-end-column="138" />
+        <state relative-caret-position="140">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/TransactionalService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="29" column="50" lean-forward="true" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        <state relative-caret-position="76">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/annotation/EnableHelloWorldBootStrap.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/core/type/AnnotationMetadata.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/annotation/HelloWorldConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/FtpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/annotation/EnableHelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/HttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/ServerImportBeanDefinitionRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/ServerImportSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="82" column="51" lean-forward="true" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.context.annotation.ConfigurationClassPostProcessor">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.context.annotation.ConfigurationClassPostProcessor</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.core.Ordered</node>
-            <node x="" y="">org.springframework.context.annotation.ConfigurationClassPostProcessor</node>
-            <node x="" y="">org.springframework.context.EnvironmentAware</node>
-            <node x="" y="">org.springframework.beans.factory.config.BeanFactoryPostProcessor</node>
-            <node x="" y="">org.springframework.context.ResourceLoaderAware</node>
-            <node x="" y="">org.springframework.beans.factory.Aware</node>
-            <node x="" y="">org.springframework.core.PriorityOrdered</node>
-            <node x="" y="">org.springframework.beans.factory.BeanClassLoaderAware</node>
-            <node x="" y="">org.springframework.beans.factory.support.BeanDefinitionRegistryPostProcessor</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="494.0" y="97.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.context.annotation.ConfigurationClassParser">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.context.annotation.ConfigurationClassParser</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.context.annotation.ConfigurationClassParser</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="96.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationCondition.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.16.RELEASE/spring-core-4.3.16.RELEASE-sources.jar!/org/springframework/core/type/StandardAnnotationMetadata.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="218" column="99" selection-start-line="218" selection-start-column="99" selection-end-line="218" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScanBeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="148" column="60" lean-forward="true" selection-start-line="148" selection-start-column="60" selection-end-line="148" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/EnableServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="257" selection-start-line="257" selection-end-line="257" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigBeanDefinitionParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="46" column="50" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="144" column="50" selection-start-line="144" selection-start-column="44" selection-end-line="144" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/beans/factory/config/BeanFactoryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7733">
-          <caret line="499" column="39" selection-start-line="499" selection-start-column="39" selection-end-line="499" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3344">
-          <caret line="257" column="32" selection-start-line="257" selection-start-column="32" selection-end-line="257" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE-sources.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/enable/inter/EnableServerBootStrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="1558" column="25" selection-start-line="1558" selection-start-column="20" selection-end-line="1558" selection-end-column="25" />
-          <folding>
-            <element signature="e#58481#58482#0" expanded="true" />
-            <element signature="e#58518#58519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/algorithm/str/StringStyleSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/profile/CalculatingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/env/AbstractEnvironment.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.16.RELEASE/spring-core-4.3.16.RELEASE-sources.jar!/org/springframework/core/type/classreading/AnnotationMetadataReadingVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
-          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/resources/beans2.xml">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.16.RELEASE/spring-core-4.3.16.RELEASE-sources.jar!/org/springframework/core/type/AnnotationMetadata.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+        <state relative-caret-position="178">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/resources/beans1.xml">
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AttributeCoverSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/readme.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/profile/IterationCalculatingService.java">
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationParserUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="359">
+          <caret line="193" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/profile/CalculatingServiceBootStrap.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/classreading/SimpleMetadataReaderFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="178">
+          <caret line="33" column="73" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/profile/LambdaCalculatingService.java">
+    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/AnnotationMetadataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalOnSystemProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/OnSystemPropertyCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="84" selection-start-line="26" selection-start-column="84" selection-end-line="26" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalMessageConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/conditiional/ConditionalOnSystemPropertyBootStrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        <state relative-caret-position="247">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

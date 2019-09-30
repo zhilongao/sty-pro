@@ -1,0 +1,6 @@
+关于jdk和spring对于注解方面的操作
+
+jdk可以通过原生api来操作注解，但是操作起来比较繁琐。
+
+spring在注解操作方面提供了AnnotationMetadata接口来实现注解操作，该接口spring提供了基于jdk api层面的 StandardAnnotationMetadata实现和基于
+asm层面的实现AnnotationMetadataReadingVisitor

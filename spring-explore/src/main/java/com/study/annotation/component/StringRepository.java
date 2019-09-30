@@ -12,8 +12,11 @@ import java.lang.annotation.*;
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@Repository
+@Component
 public @interface StringRepository {
-
+    /**
+     * 属性方法名称必须与@Component#value()一致
+     * @return
+     */
     String value() default "";
 }
