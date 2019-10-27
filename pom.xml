@@ -20,6 +20,7 @@
     <module>kafka-study-project</module>
     <module>redis-study-project</module>
     <module>mybatis-study-project</module>
+      <module>common-util</module>
   </modules>
 
   <name>struct-parent</name>

@@ -10,6 +10,7 @@ import java.util.Map;
  * @Date 2019/9/28 17:24
  */
 public class ServerImportSelector implements ImportSelector {
+    //  其中 importClassMetadata 为标注@EnableServer注解的类上面的元注解
     @Override
     public String[] selectImports(AnnotationMetadata importingClassMetadata) {
         // 读取Enable中所有的属性方法，本例中仅有type() 属性方法

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common-util" />
         <module name="interview-ready" />
         <module name="kafka-study-project" />
         <module name="mybatis-study-project" />
