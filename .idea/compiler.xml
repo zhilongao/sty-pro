@@ -13,6 +13,7 @@
         <module name="person-api" />
         <module name="person-client" />
         <module name="person-service-provider" />
+        <module name="quartz-study" />
         <module name="redis-study-project" />
         <module name="rmi-server-study" />
         <module name="service-api" />
