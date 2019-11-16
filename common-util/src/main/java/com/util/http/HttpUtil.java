@@ -17,7 +17,7 @@ import java.util.Set;
  */
 public class HttpUtil {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Map<String, Object> map = new HashMap<>();
         map.put("query","银行");
         map.put("location", "39.915,116.404");
@@ -29,7 +29,7 @@ public class HttpUtil {
         Object o = get(url, map, resultDTO);
         AddressSearchResultDTO o1 = (AddressSearchResultDTO) o;
         System.out.println(o1);
-    }
+    }*/
 
     /**
      * RestTemplate发送get请求

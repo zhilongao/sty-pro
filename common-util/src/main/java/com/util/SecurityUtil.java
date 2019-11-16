@@ -17,26 +17,6 @@ import javax.crypto.spec.SecretKeySpec;
  * @Date 2019/11/9 18:06
  */
 public class SecurityUtil {
-
-
-    public static void main(String[] args) {
-        String params1 = "hello,world";
-        String s = null;
-        try {
-            s = encodeAes(params1, "123456789asdfghj");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        String s1 = null;
-        try {
-            s1 = decodeAes(s, "123456789asdfghj");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        System.out.println(s);
-        System.out.println(s1);
-    }
-
     /**
      * AES加密
      * @param src
