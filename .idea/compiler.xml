@@ -11,7 +11,6 @@
         <module name="kafka-study-project" />
         <module name="mybatis-study-project" />
         <module name="quartz-spring" />
-        <module name="quartz-springboot" />
         <module name="quartz-standalone" />
         <module name="redis-study-project" />
         <module name="rmi-server-study" />
@@ -47,6 +46,7 @@
       <module name="format-starter" target="1.7" />
       <module name="kafka-project" target="1.7" />
       <module name="mybatis-generate-project" target="1.8" />
+      <module name="quartz-springboot" target="1.7" />
       <module name="quartz-study" target="1.7" />
       <module name="spring-boot-explore" target="1.8" />
       <module name="spring-cloud-service-discover-client" target="1.8" />

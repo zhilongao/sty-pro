@@ -15,7 +15,5 @@
         <module>zk-search-study</module>
         <module>quartz-standalone</module>
         <module>quartz-spring</module>
-        <module>quartz-springboot</module>
     </modules>
-
 </project>
