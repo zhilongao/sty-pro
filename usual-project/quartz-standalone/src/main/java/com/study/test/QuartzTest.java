@@ -1,6 +1,6 @@
 package com.study.test;
 
-import com.study.job.JobService;
+import com.study.scheduler.FirstScheduler;
 
 /**
  * @Author long
@@ -8,6 +8,10 @@ import com.study.job.JobService;
  */
 public class QuartzTest {
     public static void main(String[] args) {
-        new JobService().executeQuartzJob();
+        test();
+    }
+
+    public static void test() {
+        FirstScheduler.executeJob();
     }
 }

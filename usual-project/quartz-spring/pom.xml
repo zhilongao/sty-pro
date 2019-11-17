@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>struct-parent</artifactId>
+        <artifactId>usual-project</artifactId>
         <groupId>com.study.zl</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>usual-project</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>zk-search-study</module>
-        <module>quartz-standalone</module>
-        <module>quartz-spring</module>
-        <module>quartz-springboot</module>
-    </modules>
+    <artifactId>quartz-spring</artifactId>
+
 
 </project>
