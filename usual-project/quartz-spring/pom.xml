@@ -11,5 +11,9 @@
 
     <artifactId>quartz-spring</artifactId>
 
-
+    <properties>
+        <spring.framework.version>4.1.4.RELEASE</spring.framework.version>
+        <spring.aspects.version>3.2.3.RELEASE</spring.aspects.version>
+        <mysql.connector.version>5.1.31</mysql.connector.version>
+    </properties>
 </project>

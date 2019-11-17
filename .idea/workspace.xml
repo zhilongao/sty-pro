@@ -2,32 +2,176 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06a85f66-c244-4ad9-8f4f-d0222d9b5387" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-springboot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/calendar/CalendarDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/jdktimer/TestTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/job/SimpleJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/listener/MyJobListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/listener/MySchedulerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/listener/MyTriggerListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/scheduler/FirstScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/test/QuartzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/trigger/TriggerDefine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/resources/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/JobController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/dao/SysJobMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/entity/SysJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/exception/BizException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/service/job/ISysJobService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/service/job/impl/SysJobServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/task/SendMessageTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/InstallCert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/BaseJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/SchedulerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/vo/LayuiData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/db/sys_job.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/db/清空表脚本.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/mybatis/mapper/SysJobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/jquery-3.3.1/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/jquery-3.3.1/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/templates/addressSearch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/templates/jobAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/templates/jobDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/templates/jobList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/templates/jobListPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-util/src/main/resources/templates/jobUpdate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usual-project/quartz-spring/src/main/resources/db/tables_mysql_innodb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usual-project/quartz-spring/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usual-project/quartz-spring/src/main/resources/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usual-project/quartz-spring/src/main/resources/spring_quartz.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/SecurityUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/util/security/SecurityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/config/Swagger2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/AddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/convert/SelfMappingJackson2HttpMessageConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/convert/SelfMappingJackson2HttpMessageConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/dto/AddressResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/AddressResultDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/dto/AddressSearchResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/AddressSearchResultDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/dto/LocationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/LocationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/file/excel/ExcelListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/util/file/excel/ExcelListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/file/excel/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/util/file/excel/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/file/excel/StudentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/util/file/excel/StudentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/util/http/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/SecurityUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/config/Swagger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/controller/AddressController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/controller/FileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/convert/SelfMappingJackson2HttpMessageConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/dto/AddressResultDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/dto/AddressSearchResultDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/dto/LocationDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/file/excel/ExcelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/file/excel/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/file/excel/StudentModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/util/http/HttpUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usual-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usual-project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usual-project/quartz-study/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usual-project/quartz-study/src/main/java/com/study/job/JobService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usual-project/quartz-study/src/main/java/com/study/job/SimpleJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usual-project/quartz-study/src/main/java/com/study/test/QuartzTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usual-project/quartz-study/target/classes/com/study/job/JobService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usual-project/quartz-study/target/classes/com/study/job/SimpleJob.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/usual-project/quartz-study/target/classes/com/study/test/QuartzTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/usual-project/quartz-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usual-project/quartz-spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usual-project/quartz-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/usual-project/quartz-springboot/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-study/target/" />
@@ -83,27 +227,27 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/struct_parent$SpringCloudEurekaServerDemoApplication.ic" NAME="SpringCloudEurekaServerDemoApplication Coverage Results" MODIFIED="1564285757471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TestTimer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/jdktimer/TestTimer.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SendMessageTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/task/SendMessageTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#267#591#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CalendarDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/calendar/CalendarDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+            <state relative-caret-position="304">
+              <caret line="16" column="117" selection-start-line="16" selection-start-column="117" selection-end-line="16" selection-end-column="117" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,7 +269,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ThreadPoolExecutor</find>
       <find>ThreadPoolTaskExecutor</find>
       <find>initializeExecutor</find>
       <find>executor</find>
@@ -155,6 +298,7 @@
       <find>setResourceLoader</find>
       <find>ClassPathBeanDefinitionScanner</find>
       <find>output</find>
+      <find>properties</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,38 +320,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-study/src/main/java/com/example/controller/UserInfoController.java" />
-        <option value="$PROJECT_DIR$/spring-boot-study/src/test/java/com/example/springbootstudy/AppTests.java" />
-        <option value="$PROJECT_DIR$/spring-boot-study/src/test/java/com/example/springbootstudy/Test1.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/MyClassLoader.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/SelfClassLoader.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/App.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/Test.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/ASSL.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/App2.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/file1.txt" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/p1/SelfClassLoader.java" />
-        <option value="$PROJECT_DIR$/interview-ready/pom.xml" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/p2/a.properties" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/p2/App.java" />
-        <option value="$PROJECT_DIR$/interview-ready/src/main/java/com/study/zl/classloader/p3/App.java" />
-        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/A1/App.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/file/excel/StudentModel.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/file/excel/ExcelListener.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/file/excel/FileUtil.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/App.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/dto/LocationDTO.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/dto/ResultsDTO.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/dto/AddressResultDTO.java" />
         <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/dto/JsonRootBeanDTO.java" />
         <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/dto/AddressSearchResultDTO.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/controller/AddressController.java" />
         <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/convert/SelfMappingJackson2HttpMessageConverter.java" />
-        <option value="$PROJECT_DIR$/common-util/pom.xml" />
         <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/SecurityUtil.java" />
         <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/http/HttpUtil.java" />
         <option value="$PROJECT_DIR$/usual-project/quartz-study/pom.xml" />
@@ -227,6 +343,34 @@
         <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/scheduler/FirstScheduler.java" />
         <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/jdktimer/TestTimer.java" />
         <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/calendar/CalendarDemo.java" />
+        <option value="$PROJECT_DIR$/usual-project/quartz-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/usual-project/quartz-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/InstallCert.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/InstallCert.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/SecurityUtil.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/entity/SysJob.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/service/ISysJobService.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/exception/BizException.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/dao/SysJobMapper.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/vo/LayuiData.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/SchedulerUtil.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/BaseJob.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/Constant.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/JobController.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/InstallCert.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/service/job/ISysJobService.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/service/job/impl/SysJobServiceImpl.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/AddressResultDTO.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/resources/mybatis/mapper/SysJobMapper.xml" />
+        <option value="$PROJECT_DIR$/common-util/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/App.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/resources/db/sys_job.sql" />
+        <option value="$PROJECT_DIR$/common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/AddressController.java" />
+        <option value="$PROJECT_DIR$/common-util/src/main/resources/templates/addressSearch.html" />
+        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/task/SendMessageTask.java" />
       </list>
     </option>
   </component>
@@ -240,6 +384,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\Users\long\.m2\repository" />
+        <option name="mavenHome" value="D:/work/java-environment/apache-maven-3.6.1" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -248,7 +393,38 @@
     <option name="alwaysShowArtifactId" value="true" />
     <option name="showVersions" value="true" />
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+          <item name="usual-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+          <item name="usual-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+          <item name="usual-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
+          <item name="quartz-spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -272,7 +448,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,34 +458,25 @@
             <path>
               <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
+              <item name="common-util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
+              <item name="common-util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
+              <item name="common-util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
+              <item name="common-util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -318,8 +484,7 @@
             <path>
               <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
+              <item name="common-util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -328,58 +493,44 @@
             <path>
               <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
+              <item name="common-util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
+              <item name="common-util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="calendar" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="jdktimer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
+              <item name="common-util" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
@@ -387,6 +538,7 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -401,10 +553,10 @@
     <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-explore/pom.xml" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/鼓泡学院/任务调度/01. 任务调度之Quartz/课程源码/spring-quartz/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.47241378" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -423,11 +575,11 @@
       <recent name="com.gupao.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\struct-parent\usual-project\quartz-standalone\src\main\java" />
-      <recent name="D:\code\struct-parent\spring-explore\src\resources" />
-      <recent name="D:\code\struct-parent\interview-ready\src\main\java\com\study\zl\safe" />
-      <recent name="D:\code\struct-parent\interview-ready\src\main\java\com\study\zl\pattern" />
-      <recent name="D:\code\struct-parent\mybatis-generate-project\src\main\resources" />
+      <recent name="D:\code\struct-parent\common-util\src\main\java\com\common\service\job\impl" />
+      <recent name="D:\code\struct-parent\common-util\src\main\java\com\common\util\job" />
+      <recent name="D:\code\struct-parent\common-util\src\main\java\com\common\vo" />
+      <recent name="D:\code\struct-parent\common-util\src\main\java\com\common\dao" />
+      <recent name="D:\code\struct-parent\common-util\src\main\java\com\common\entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -442,7 +594,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalendarDemo">
+  <component name="RunManager" selected="Spring Boot.App">
     <configuration name="CalendarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.calendar.CalendarDemo" />
       <module name="quartz-standalone" />
@@ -450,6 +602,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.study.calendar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="InstallCert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.common.util.http.InstallCert" />
+      <module name="common-util" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -494,6 +657,18 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="common-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.common.App" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
     </configuration>
     <configuration name="PersonClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="person-client" />
@@ -574,9 +749,13 @@
       <item itemvalue="Application.QuartzTest" />
       <item itemvalue="Application.TestTimer" />
       <item itemvalue="Application.CalendarDemo" />
+      <item itemvalue="Spring Boot.App" />
+      <item itemvalue="Application.InstallCert" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="Application.InstallCert" />
         <item itemvalue="Application.CalendarDemo" />
         <item itemvalue="Application.TestTimer" />
         <item itemvalue="Application.QuartzTest" />
@@ -746,12 +925,17 @@
       <workItem from="1573375959161" duration="626000" />
       <workItem from="1573867301910" duration="115000" />
       <workItem from="1573888022860" duration="5229000" />
-      <workItem from="1573953200459" duration="4211000" />
+      <workItem from="1573953200459" duration="5506000" />
+      <workItem from="1573958874633" duration="28000" />
+      <workItem from="1573959753973" duration="2542000" />
+      <workItem from="1573962518352" duration="679000" />
+      <workItem from="1573965915924" duration="9581000" />
+      <workItem from="1573985073347" duration="517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="856449000" />
+    <option name="totallyTimeSpent" value="871091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -759,8 +943,8 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.117219076" side_tool="true" weight="0.33510637" />
-      <window_info anchor="right" x="436" y="58" width="408" height="565" id="Maven Projects" order="4" type="SLIDING" weight="0.19886823" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.118027486" side_tool="true" weight="0.7522124" />
+      <window_info anchor="right" x="436" y="58" width="408" height="565" id="Maven Projects" order="4" type="SLIDING" weight="0.4349232" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -777,13 +961,12 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32920355" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8827809" weight="0.7535461" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8819725" weight="0.7535461" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.62234044" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.29830235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.32255456" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5159575" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32920355" />
@@ -793,6 +976,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32983023" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5159575" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -823,7 +1007,6 @@
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" x="436" y="58" width="408" height="565" id="Maven Projects" order="4" type="SLIDING" weight="0.19886823" />
       <window_info anchor="right" id="ZooKeeper" order="11" weight="0.32983023" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5159575" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.29830235" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -833,8 +1016,9 @@
       <window_info id="Structure" order="1" sideWeight="0.50088495" side_tool="true" weight="0.28860146" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32983023" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44680852" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5159575" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44680852" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -953,240 +1137,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-core/4.3.18.RELEASE/spring-core-4.3.18.RELEASE-sources.jar!/org/springframework/core/type/AnnotationMetadata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/StringRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03.jar!/META-INF/spring.handlers">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/component/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/META-INF/spring.handlers">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-aop/4.3.18.RELEASE/spring-aop-4.3.18.RELEASE.jar!/META-INF/spring.handlers">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/config/ContextNamespaceHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
-          <caret line="182" column="19" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/zk-search-study/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-study/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/file/excel/ExcelListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/config/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/file/excel/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/file/excel/StudentModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/dto/LocationDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/dto/AddressResultDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/convert/SelfMappingJackson2HttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/dto/AddressSearchResultDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/SecurityUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/util/http/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/zk-search-study/src/main/java/com/study/base/CuratorApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-study/src/main/java/com/study/job/QuartzTest.java" />
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-study/src/main/java/com/study/job/SimpleJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-study/src/main/java/com/study/job/JobService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-springboot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-study/src/main/java/com/study/test/QuartzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-study/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/job/SimpleJob.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/usual-project/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -1208,28 +1158,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/Scheduler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/job/JobService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/Scheduler.java" />
+    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/job/JobService.java" />
     <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/test/QuartzTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,38 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
           <caret line="98" column="5" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
-          <folding>
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1353#1354#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1464#1465#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1736#1737#0" expanded="true" />
-            <element signature="e#1781#1782#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1885#1886#0" expanded="true" />
-            <element signature="e#1956#1957#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#2226#2227#0" expanded="true" />
-            <element signature="e#2264#2265#0" expanded="true" />
-            <element signature="e#2328#2329#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
-            <element signature="e#2432#2433#0" expanded="true" />
-            <element signature="e#2471#2472#0" expanded="true" />
-            <element signature="e#2536#2537#0" expanded="true" />
-            <element signature="e#2579#2580#0" expanded="true" />
-            <element signature="e#2644#2645#0" expanded="true" />
-            <element signature="e#2687#2688#0" expanded="true" />
-            <element signature="e#2755#2756#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1283,13 +1185,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1297,9 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="55" column="109" selection-start-line="55" selection-start-column="109" selection-end-line="55" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1310,29 +1202,279 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/01. 任务调度之Quartz/课程源码/quartz-standalone/src/main/java/com/gupaoedu/calendar/CalendarDemo.java" />
+    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/calendar/CalendarDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/jdktimer/TestTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
+        <state relative-caret-position="340">
           <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usual-project/quartz-spring/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usual-project/quartz-spring/src/main/resources/quartz.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usual-project/quartz-spring/src/main/resources/db/tables_mysql_innodb.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2913">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usual-project/quartz-spring/src/main/resources/spring_quartz.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usual-project/quartz-spring/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usual-project/quartz-springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/db/清空表脚本.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/exception/BizException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#267#591#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/01. 任务调度之Quartz/课程源码/quartz-standalone/src/main/java/com/gupaoedu/calendar/CalendarDemo.java">
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/vo/LayuiData.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/BaseJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/calendar/CalendarDemo.java">
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/SchedulerUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+        <state relative-caret-position="208">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/InstallCert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/security/SecurityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/service/job/impl/SysJobServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/service/job/ISysJobService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/AddressSearchResultDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/LocationDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/AddressResultDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/entity/SysJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/mybatis/mapper/SysJobMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2926">
+          <caret line="154" column="84" selection-start-line="154" selection-start-column="84" selection-end-line="154" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/dao/SysJobMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/5.1.21/mysql-connector-java-5.1.21.jar!/com/mysql/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/db/sys_job.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="2" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15871" column="17" selection-start-line="15871" selection-start-column="17" selection-end-line="15871" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/templates/jobList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/templates/jobListPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="160" column="14" selection-end-line="209" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/templates/addressSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/controller/AddressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/controller/JobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/task/SendMessageTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="117" selection-start-line="16" selection-start-column="117" selection-end-line="16" selection-end-column="117" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1350,7 +1492,17 @@
             <option name="proportions">
               <list>
                 <option value="0.47241378" />
-                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47241378" />
               </list>
             </option>
           </splitter-proportions>
@@ -1398,7 +1550,6 @@
             <option name="proportions">
               <list>
                 <option value="0.47241378" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1418,7 +1569,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: org.springframework:spring-context:5.1.8.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
