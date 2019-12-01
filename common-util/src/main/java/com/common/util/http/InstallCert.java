@@ -25,8 +25,8 @@ import javax.net.ssl.X509TrustManager;
  * 证书安装工具类
  */
 public class InstallCert {
-
-    public static final String HOSTNAME = "repo.maven.apache.org";
+    String ll = "http://maven.aliyun.com/nexus/content/groups/public/";
+    public static final String HOSTNAME = "maven.aliyun.com";
 
     public static void main(String[] args) throws Exception {
         args = new String[]{HOSTNAME};

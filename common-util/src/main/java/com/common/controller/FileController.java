@@ -17,13 +17,14 @@ import java.util.List;
 /**
  * @Author long
  * @Date 2019/10/20 15:43
+ * 文件上传->excel导入
  */
 @Api
 @RestController
 @RequestMapping(value = "file")
 public class FileController {
 
-    @ApiOperation(value = "fileImport")
+    @ApiOperation(value = "excelImport")
     @PostMapping
     public List<StudentModel> fileImport(MultipartFile file) {
         return listenerImport(file);

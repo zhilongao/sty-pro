@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/format-starter/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-project/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-generate-project/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-explore/pom.xml" />
         <option value="$PROJECT_DIR$/usual-project/quartz-study/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-study/pom.xml" />
       </set>

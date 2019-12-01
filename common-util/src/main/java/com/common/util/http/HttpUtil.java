@@ -1,6 +1,6 @@
 package com.common.util.http;
 
-import com.common.convert.SelfMappingJackson2HttpMessageConverter;
+import com.common.util.convert.SelfMappingJackson2HttpMessageConverter;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.client.RestTemplate;

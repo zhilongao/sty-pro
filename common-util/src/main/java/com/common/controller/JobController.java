@@ -24,6 +24,7 @@ import java.util.List;
 /**
  * @Author long
  * @Date 2019/11/17 15:03
+ * job任务管理类
  */
 @Controller
 @RequestMapping("/job")
@@ -324,7 +325,6 @@ public class JobController {
         if( result.getJobStatus() == Constant.JOB_STATE.YES ){
             SchedulerUtil.jobReschedule(result.getJobName(), result.getJobGroup(),jobCron);
         }
-
         // 返回成功
         return num;
     }

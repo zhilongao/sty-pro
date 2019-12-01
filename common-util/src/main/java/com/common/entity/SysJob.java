@@ -96,5 +96,6 @@ public class SysJob implements Serializable {
 	public void setJobDataMap(String jobDataMap) {
 		this.jobDataMap = jobDataMap;
 	}
-	
+
+
 }

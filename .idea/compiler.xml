@@ -23,7 +23,6 @@
         <module name="spring-cloud-eureka-server-demo" />
         <module name="spring-cloud-hystrix-client-demo" />
         <module name="spring-cloud-hystrix-dashboard-demo1" />
-        <module name="spring-explore" />
         <module name="zk-search-study" />
       </profile>
       <profile name="Annotation profile for spring-cloud-feign-demo" enabled="true">
@@ -51,6 +50,7 @@
       <module name="spring-boot-explore" target="1.8" />
       <module name="spring-cloud-service-discover-client" target="1.8" />
       <module name="spring-cloud-study-parent" target="1.8" />
+      <module name="spring-explore" target="1.8" />
       <module name="spring-study-transaction" target="1.7" />
       <module name="zookeeper-study" target="1.7" />
     </bytecodeTargetLevel>

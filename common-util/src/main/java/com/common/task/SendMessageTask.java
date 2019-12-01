@@ -10,6 +10,7 @@ import java.util.Date;
 /**
  * @Author long
  * @Date 2019/11/17 18:12
+ * 短信发送任务->实现BaseJob接口
  */
 public class SendMessageTask implements BaseJob {
 
