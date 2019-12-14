@@ -1,5 +1,6 @@
 package com.common.config;
 
+import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -22,8 +23,9 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                //.apis(RequestHandlerSelectors.basePackage("cn.saytime.web"))
                 .paths(PathSelectors.any())
+                .paths(Predicates.not(PathSelectors.regex("/error.*")))
+                .paths(PathSelectors.regex("/.*"))// 对根下所有路径进行监控
                 .build();
     }
 
