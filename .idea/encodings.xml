@@ -3,35 +3,64 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-util/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-service-project" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-service-project/service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project/service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project/service-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-service-project/service-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project/service-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project/service-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-service-project/service-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project/service-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo-service-project/service-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interview-ready" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interview-ready/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interview-ready/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-study-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-study-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/kafka-study-project/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-study-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-study-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis-study-project/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/redis-study-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redis-study-project/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redis-study-project/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rmi-server-study" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rmi-server-study/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-study" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-service-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-service-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-feign-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-feign-demo/person-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-feign-demo/person-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-feign-demo/person-service-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-client-demo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-explore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-client-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-client-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/usual-project" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/usual-project/quartz-spring" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/usual-project/quartz-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usual-project/quartz-spring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usual-project/quartz-spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/usual-project/quartz-standalone" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/usual-project/quartz-study" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/usual-project/zk-search-study" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usual-project/zk-search-study/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/usual-project/zk-search-study/src/main/resources" charset="UTF-8" />
   </component>
 </project>

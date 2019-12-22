@@ -11,11 +11,10 @@
 
     <artifactId>dubbo-service-project</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>service-api</module>
         <module>service-provider</module>
         <module>service-consumer</module>
     </modules>
-
-
 </project>

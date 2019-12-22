@@ -2,65 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06a85f66-c244-4ad9-8f4f-d0222d9b5387" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/unit1/AppOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/common/config/Swagger2.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/config/Swagger2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/AddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/AddressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/JobController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/config/Swagger2.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/target/classes/com/common/config/Swagger2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/AddressController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/JobController.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/JobController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-util/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/common-util.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common-util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/config/Swagger2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/AddressController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/FileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/controller/JobController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/dao/SysJobMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/dto/address/AddressResultDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/dto/address/AddressSearchResultDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/dto/address/LocationDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/entity/SysJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/exception/BizException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/service/job/ISysJobService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/service/job/impl/SysJobServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/task/SendMessageTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/convert/SelfMappingJackson2HttpMessageConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/file/excel/ExcelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/file/excel/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/file/excel/StudentModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/http/HttpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/http/InstallCert$SavingTrustManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/http/InstallCert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/job/BaseJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/job/Constant$JOB_STATE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/job/Constant$RETURN_STATE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/job/Constant$SYSCODE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/job/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/job/SchedulerUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/util/security/SecurityUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-util/target/classes/com/common/vo/LayuiData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-project/dubbo-service-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-service-project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-service-project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jssecacerts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-study-project/kafka-study-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-study-project/mybatis-study-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs/config-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs/config-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/configs/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/src/main/java/com/gupao/springcloudhystrixdashboarddemo/SpringCloudHystrixDashboardDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/src/test/java/com/gupao/springcloudhystrixdashboarddemo/SpringCloudHystrixDashboardDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssecacerts" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/zookeeper-study/target/" />
-    <ignored path="$PROJECT_DIR$/rmi-server-study/target/" />
-    <ignored path="$PROJECT_DIR$/spring-explore/target/" />
-    <ignored path="$PROJECT_DIR$/spring-boot-explore/target/" />
-    <ignored path="$PROJECT_DIR$/interview-ready/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-spring-explore/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-spring-explore/dubbo-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-spring-explore/dubbo-provider/target/" />
-    <ignored path="$PROJECT_DIR$/spring-boot-study/target/" />
-    <ignored path="$PROJECT_DIR$/format-starter/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-config-client/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-config-server/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-server-demo/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-client-demo/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-api/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-service-provider/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-eureka-client-demo/user-service-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-hystrix-client-demo/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-service-discover-client/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-feign-demo/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-feign-demo/person-api/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-feign-demo/person-service-provider/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-feign-demo/person-client/target/" />
-    <ignored path="$PROJECT_DIR$/spring-cloud-study-parent/target/" />
-    <ignored path="$PROJECT_DIR$/usual-project/target/" />
-    <ignored path="$PROJECT_DIR$/usual-project/zk-search-study/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-service-project/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-service-project/service-api/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-service-project/service-provider/target/" />
-    <ignored path="$PROJECT_DIR$/dubbo-service-project/service-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/kafka-project/target/" />
-    <ignored path="$PROJECT_DIR$/kafka-study-project/target/" />
-    <ignored path="$PROJECT_DIR$/redis-study-project/target/" />
-    <ignored path="$PROJECT_DIR$/spring-study-transaction/target/" />
-    <ignored path="$PROJECT_DIR$/mybatis-study-project/target/" />
-    <ignored path="$PROJECT_DIR$/mybatis-generate-project/target/" />
-    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
-    <ignored path="$PROJECT_DIR$/common-util/target/" />
-    <ignored path="$PROJECT_DIR$/usual-project/quartz-study/target/" />
-    <ignored path="$PROJECT_DIR$/usual-project/quartz-standalone/target/" />
-    <ignored path="$PROJECT_DIR$/usual-project/quartz-spring/target/" />
-    <ignored path="$PROJECT_DIR$/usual-project/quartz-springboot/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,50 +83,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SimpleJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/job/SimpleJob.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppOneTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/unit1/AppOneTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="79" column="72" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3636#3637#0" expanded="true" />
-                <element signature="e#3676#3677#0" expanded="true" />
-                <element signature="e#3720#3721#0" expanded="true" />
-                <element signature="e#3760#3761#0" expanded="true" />
-                <element signature="e#3804#3805#0" expanded="true" />
-                <element signature="e#3844#3845#0" expanded="true" />
-                <element signature="e#3888#3889#0" expanded="true" />
-                <element signature="e#3928#3929#0" expanded="true" />
-                <element signature="e#3982#3983#0" expanded="true" />
-                <element signature="e#4079#4080#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JobBuilder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/JobBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -137,280 +93,29 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ThreadPoolTaskExecutor</find>
-      <find>initializeExecutor</find>
-      <find>executor</find>
-      <find>init</find>
-      <find>threadPoolExecutor</find>
-      <find>execute</find>
-      <find>1</find>
-      <find>OP_WRITE</find>
-      <find>已经</find>
-      <find>cancel</find>
-      <find>equals</find>
-      <find>reverseOnlyLetters</find>
-      <find>当前配置已更新</find>
-      <find>ConfigServerAutoConfiguration</find>
-      <find>cancelAcquire</find>
-      <find>registerDefaul</find>
-      <find>org.apache.zookeeper</find>
-      <find>LoanService</find>
-      <find>AnnotationCof</find>
-      <find>Configu</find>
-      <find>basePakcage</find>
-      <find>parse</find>
-      <find>tryAcquireShared</find>
-      <find>selectImports</find>
-      <find>registerDefaultFilters</find>
-      <find>getAnnotationMetadata</find>
-      <find>setResourceLoader</find>
-      <find>ClassPathBeanDefinitionScanner</find>
-      <find>output</find>
-      <find>properties</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>D:\code\struct-parent\spring-cloud-config-server\src\main\resources\configs</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../spring" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/pom.xml" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/resources/quartz.properties" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/trigger/TriggerDefine.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/job/JobService.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/test/QuartzTest.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/listener/MyJobListener.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/listener/MySchedulerListener.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/listener/MyTriggerListener.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/scheduler/FirstScheduler.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/jdktimer/TestTimer.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/calendar/CalendarDemo.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-spring/pom.xml" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-springboot/pom.xml" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/util/InstallCert.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/InstallCert.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/SecurityUtil.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/HttpUtil.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/service/ISysJobService.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/exception/BizException.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/dao/SysJobMapper.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/vo/LayuiData.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/SchedulerUtil.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/Constant.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/HttpUtil.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/service/job/ISysJobService.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/AddressResultDTO.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/resources/mybatis/mapper/SysJobMapper.xml" />
-        <option value="$PROJECT_DIR$/common-util/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/App.java" />
-        <option value="$PROJECT_DIR$/common-util/pom.xml" />
-        <option value="$PROJECT_DIR$/common-util/src/main/resources/templates/addressSearch.html" />
-        <option value="$PROJECT_DIR$/usual-project/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-explore/src/resources/factory-bean.xml" />
-        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/xml/factorybean/Car.java" />
-        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/xml/factorybean/CarFactoryBean.java" />
-        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/xml/factorybean/FactoryBeanTest.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/InstallCert.java" />
-        <option value="$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/TransactionalService.java" />
-        <option value="$PROJECT_DIR$/spring-explore/pom.xml" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/BaseJob.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/task/SendMessageTask.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/service/job/impl/SysJobServiceImpl.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/entity/SysJob.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/resources/db/sys_job.sql" />
-        <option value="$PROJECT_DIR$/common-util/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/AddressController.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/config/Swagger2.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/common-util/src/main/java/com/common/controller/JobController.java" />
-        <option value="$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/unit1/AppOneTest.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\long\.m2\repository" />
-        <option name="mavenHome" value="D:/work/java-environment/apache-maven-3.6.1" />
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
         <option name="userSettingsFile" value="C:\Users\long\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <option name="groupStructurally" value="true" />
-    <option name="alwaysShowArtifactId" value="true" />
-    <option name="showVersions" value="true" />
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-          <item name="usual-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-          <item name="usual-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="struct-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-          <item name="usual-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-          <item name="quartz-spring" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="354" />
-    <option name="y" value="114" />
-    <option name="width" value="1281" />
-    <option name="height" value="717" />
-  </component>
+  <component name="ProjectId" id="1VJjisIQNGIGQ6q1QlVCvSifzKB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="unit1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="struct-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="struct-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="usual-project" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz-standalone" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -424,7 +129,7 @@
     <property name="ToolWindowMaven Projects.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/鼓泡学院/任务调度/01. 任务调度之Quartz/课程源码/spring-quartz/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -432,7 +137,7 @@
     <property name="project.structure.side.proportion" value="0.47241378" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.jsOptions" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -453,81 +158,19 @@
       <recent name="D:\code\struct-parent\common-util\src\main\java\com\common\entity" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.AppOneTest">
-    <configuration name="AppOneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.unit1.AppOneTest" />
-      <module name="quartz-standalone" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.unit1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CalendarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.calendar.CalendarDemo" />
-      <module name="quartz-standalone" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.calendar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FactoryBeanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.xml.factorybean.FactoryBeanTest" />
-      <module name="spring-explore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.xml.factorybean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="InstallCert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.common.util.http.InstallCert" />
-      <module name="common-util" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="common-util" />
@@ -538,100 +181,36 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.common.App" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="PersonClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="person-client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.spring.cloud.feign.client.PersonClientApplication" />
-    </configuration>
-    <configuration name="PersonServiceProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="person-service-provider" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.spring.cloud.feign.person.service.provider.PersonServiceProviderApplication" />
-    </configuration>
-    <configuration name="SpringBootStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-study" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.App" />
-    </configuration>
-    <configuration name="SpringCloudConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-config-client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudconfigclient.ConfigClientApp" />
-    </configuration>
-    <configuration name="SpringCloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-config-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudconfigserver.ConfigServerApp" />
-    </configuration>
-    <configuration name="SpringCloudEurekaServerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
-      <module name="spring-cloud-eureka-server-demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudeurekaserverdemo.EurekaServerApp" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
-    <configuration name="SpringCloudHystrixClientDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-hystrix-client-demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudhystrixclientdemo.SpringCloudHystrixClientDemoApplication" />
-    </configuration>
-    <configuration name="SpringCloudHystrixDashboardDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-hystrix-dashboard-demo1" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.springcloudhystrixdashboarddemo.SpringCloudHystrixDashboardDemoApplication" />
-    </configuration>
-    <configuration name="UserServiceConsumerBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user-service-consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.user.UserServiceConsumerBootstrap" />
-    </configuration>
-    <configuration name="UserServiceProviderBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
-      <module name="user-service-provider" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gupao.user.UserServiceProviderBootstrap" />
-      <option name="PROGRAM_PARAMETERS" value="--server.port=7073" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.SpringBootStudyApplication" />
-      <item itemvalue="Spring Boot.SpringCloudConfigClientApplication" />
-      <item itemvalue="Spring Boot.SpringCloudConfigServerApplication" />
-      <item itemvalue="Spring Boot.SpringCloudEurekaServerDemoApplication" />
-      <item itemvalue="Spring Boot.UserServiceProviderBootstrap" />
-      <item itemvalue="Spring Boot.SpringCloudHystrixClientDemoApplication" />
-      <item itemvalue="Spring Boot.UserServiceConsumerBootstrap" />
-      <item itemvalue="Spring Boot.SpringCloudHystrixDashboardDemoApplication" />
-      <item itemvalue="Spring Boot.PersonServiceProviderApplication" />
-      <item itemvalue="Spring Boot.PersonClientApplication" />
-      <item itemvalue="Application.CalendarDemo" />
-      <item itemvalue="Spring Boot.App" />
-      <item itemvalue="Application.InstallCert" />
-      <item itemvalue="Application.FactoryBeanTest" />
-      <item itemvalue="Application.AppOneTest" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppOneTest" />
         <item itemvalue="Spring Boot.App" />
-        <item itemvalue="Application.InstallCert" />
-        <item itemvalue="Application.FactoryBeanTest" />
-        <item itemvalue="Application.CalendarDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -811,101 +390,44 @@
       <workItem from="1575182801842" duration="1992000" />
       <workItem from="1575380479485" duration="29000" />
       <workItem from="1575792154660" duration="5893000" />
+      <workItem from="1576293056713" duration="272000" />
+      <workItem from="1576763178758" duration="36364000" />
+      <workItem from="1576936794378" duration="1906000" />
+      <workItem from="1576938906248" duration="1299000" />
+      <workItem from="1576978235936" duration="1186000" />
+      <workItem from="1576990782163" duration="1253000" />
+      <workItem from="1576992261224" duration="1710000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="887613000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.118835896" side_tool="true" weight="0.66843975" />
-      <window_info anchor="right" x="436" y="58" width="408" height="565" id="Maven Projects" order="4" type="SLIDING" weight="0.4349232" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info id="Structure" order="1" sideWeight="0.50088495" side_tool="true" weight="0.28860146" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6578014" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.80679065" weight="0.3280142" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32920355" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88116413" weight="0.8280142" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6176991" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.2506063" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.32920355" />
-      <window_info anchor="bottom" id="REST Client" order="15" weight="0.5248227" />
-      <window_info anchor="right" id="ZooKeeper" order="11" weight="0.32983023" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32983023" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5159575" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="REST Client" order="16" weight="0.5248227" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8827809" weight="0.35815603" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.62234044" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32920355" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.117219076" side_tool="true" weight="0.33510637" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3280142" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32920355" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" x="436" y="58" width="408" height="565" id="Maven Projects" order="4" type="SLIDING" weight="0.19886823" />
-      <window_info anchor="right" id="ZooKeeper" order="11" weight="0.32983023" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49911505" visible="true" weight="0.29830235" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info id="Structure" order="1" sideWeight="0.50088495" side_tool="true" weight="0.28860146" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32983023" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5159575" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32983023" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44680852" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576992909072">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1576992909072" />
+    <state x="492" y="233" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576994122209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="492" y="233" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680@0.0.1280.680" timestamp="1576994122209" />
+    <state x="419" y="99" key="FileChooserDialogImpl" timestamp="1576990943814">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="419" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1576990943814" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1576994146853">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1576994146853" />
+    <state x="329" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1576978253927">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="329" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1576978253927" />
+    <state x="331" y="0" width="617" height="680" key="find.popup" timestamp="1576990686449">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="331" y="0" width="617" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1576990686449" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -913,41 +435,34 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class</url>
           <line>152</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/ioc/xml/BeanFactoryTest.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/config/ServiceConfig.class</url>
           <line>276</line>
-          <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.6.3/dubbo-2.6.3.jar!/com/alibaba/dubbo/config/ServiceConfig.class</url>
           <line>510</line>
-          <properties />
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/kafka-study-project/src/main/java/com/gupao/study/KafkaConsumerService.java</url>
           <line>37</line>
-          <properties />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/4.3.18.RELEASE/spring-context-4.3.18.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java</url>
           <line>287</line>
-          <properties />
           <option name="timeStamp" value="207" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="210" />
     </breakpoint-manager>
   </component>
   <component name="ZooKeeperConfig">
@@ -1015,330 +530,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/LocationDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/dto/address/AddressResultDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/5.1.21/mysql-connector-java-5.1.21.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15871" column="17" selection-start-line="15871" selection-start-column="17" selection-end-line="15871" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/templates/addressSearch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/EventObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/EventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03.jar!/org/springframework/context/ApplicationListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring/2.5.6.SEC03/spring-2.5.6.SEC03.jar!/org/springframework/context/ApplicationEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/resources/beans1.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/xml/factorybean/Car.java" />
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/xml/factorybean/CarFactoryBean.java" />
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/resources/factory-bean.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/xml/factorybean/FactoryBeanTest.java" />
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/main/java/com/study/annotation/parser/TransactionalService.java" />
-    <entry file="file://$PROJECT_DIR$/spring-explore/src/test/java/com/study/zl/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/spring-explore/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/http/InstallCert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/quartz-scheduler/quartz/2.2.3/quartz-2.2.3.jar!/org/quartz/Job.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/exception/BizException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/entity/SysJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="98" column="4" lean-forward="true" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/convert/SelfMappingJackson2HttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/dao/SysJobMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/mybatis/mapper/SysJobMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="154" column="84" selection-start-line="154" selection-start-column="84" selection-end-line="154" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/db/sys_job.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="16" column="176" lean-forward="true" selection-start-line="16" selection-start-column="176" selection-end-line="16" selection-end-column="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/templates/jobList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/templates/jobListPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/controller/AddressController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="43" column="101" selection-start-line="43" selection-start-column="101" selection-end-line="43" selection-end-column="101" />
-          <folding>
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/config/Swagger2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/controller/JobController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/service/job/impl/SysJobServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/Constant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/resources/quartz.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/SchedulerUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-282">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/util/job/BaseJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common-util/src/main/java/com/common/task/SendMessageTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/test/QuartzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/job/SimpleJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/JobBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/usual-project/quartz-standalone/src/main/java/com/study/unit1/AppOneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="79" column="72" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3636#3637#0" expanded="true" />
-            <element signature="e#3676#3677#0" expanded="true" />
-            <element signature="e#3720#3721#0" expanded="true" />
-            <element signature="e#3760#3761#0" expanded="true" />
-            <element signature="e#3804#3805#0" expanded="true" />
-            <element signature="e#3844#3845#0" expanded="true" />
-            <element signature="e#3888#3889#0" expanded="true" />
-            <element signature="e#3928#3929#0" expanded="true" />
-            <element signature="e#3982#3983#0" expanded="true" />
-            <element signature="e#4079#4080#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

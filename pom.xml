@@ -13,7 +13,6 @@
   <!-- 包含的子模块 -->
   <modules>
     <module>rmi-server-study</module>
-    <module>spring-explore</module>
     <module>interview-ready</module>
     <module>usual-project</module>
     <module>dubbo-service-project</module>

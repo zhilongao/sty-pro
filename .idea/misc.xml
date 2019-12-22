@@ -14,7 +14,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-client-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-hystrix-client-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-demo1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-feign-demo/pom.xml" />
       </list>
     </option>
@@ -30,7 +29,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8.0_131" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
